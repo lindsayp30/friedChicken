@@ -15,9 +15,9 @@ We aim to use match statistics from previous matches from the competitive scene 
 
 *Match Statistics Used:*
  * ACS - Average Combat Score measures
- * ADR
- * KAST
- * K/D ratio
+ * ADR - Average Damage per Round
+ * KAST - Kills, Assists, Survive %, Trades
+ * K/D ratio - Number of kills divided by number of deaths
  * maybe agent classes
 
 *How-to-Launch Instructions:*
