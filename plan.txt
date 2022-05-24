@@ -1,0 +1,36 @@
+to-do:
+- find database that is pullable
+- sort by team... calculating the average statistics for each team
+- compare each match statistic in each team with that of the other team
+- we find the team with the higher statistics
+
+must have:
+- make it interactive for the player
+  - aka "press 1 or 2 for a map"
+- include some variability/risk
+
+for aesthetics:
+- GUI
+- processing
+- import image and reveal team logo slowly
+
+storyline:
+- you are kidnapped and forced to participate in a betting ring with opponent []
+- you, luckily, have the aid of [], which utilizes database to predict which team
+  will win the match such that you can correctly predict the victor
+- you start with a certain amount of money and have to bet in each match
+- if you win, you are able to escape with more $ and freedom
+- if you lose, you are sucked into the game (maybe implement processing here)
+
+outline:
+- a welcoming message -- player is told they have been kidnapped and is forced to \
+  bet with opponent []
+- player has aid [] and a certain amount of money
+-
+
+for each match:
+- who's gonna win the game?
+  - if so, how many rounds will they 
+
+
+(when given a high probability of a team winning, player should bet more money)
