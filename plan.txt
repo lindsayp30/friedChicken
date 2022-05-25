@@ -15,12 +15,12 @@ for aesthetics:
 - import image and reveal team logo slowly
 
 storyline:
-- you are kidnapped and forced to participate in a betting ring with opponent []
-- you, luckily, have the aid of [], which utilizes database to predict which team
-  will win the match such that you can correctly predict the victor
-- you start with a certain amount of money and have to bet in each match
-- if you win, you are able to escape with more $ and freedom
-- if you lose, you are sucked into the game (maybe implement processing here)
+- you have a gambling problem and you are kidnapped so you are forced to pay your debts.
+- however, your kidnapper offered you one last chance as you cannot afford the debt and
+  would have to sell your organs. Your lifeline is this project that will help you bet
+  more wisely to pay off the debt.
+- if you choose not to listen, you would die
+- if you make the right decisions you return home debt-free :D
 
 outline:
 - a welcoming message -- player is told they have been kidnapped and is forced to \
@@ -30,7 +30,7 @@ outline:
 
 for each match:
 - who's gonna win the game?
-  - if so, how many rounds will they 
+  - if so, how many rounds will they
 
 
 (when given a high probability of a team winning, player should bet more money)
