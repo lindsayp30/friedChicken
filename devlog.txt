@@ -82,3 +82,8 @@ Lea & Nina :: Updated README, created devlog
 --------------------------------------------------------------
 Lindsay & Lea & Nina :: Made propro.pdf, deleted plan.txt, added flag.jpg, created v0 with sinbad.jar
 ==============================================================
+
+2022-05-27: 2:39AM
+--------------------------------------------------------------
+Lea :: Uploaded WIP dataset
+==============================================================
