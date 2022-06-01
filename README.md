@@ -20,7 +20,6 @@ To add fun, the player will be told that they are kidnapped by the mafia because
  * ADR - Average Damage per Round
  * KAST - Kills, Assists, Survive %, Trades
  * K/D ratio - Number of kills divided by number of deaths
- * maybe agent classes
 
 *How-to-Launch Instructions:*
 1. Launch Terminal and go to the directory containing Woo.java
