@@ -7,6 +7,7 @@
 ---
 
 *Project Description:*
+
 Valorant is a 5v5 tactical FPS. One team has an objective to plant the spike and the other team must stop them from planting on certain sites or defuse the spike before it explodes. A team wins by winning 13 rounds first, and a game can go into overtime if both teams reach 12 rounds. An overtime is won by a team winning consecutive attack and defense rounds (win by 2).
 
 In the competitive scene, there are many teams competing in Riot-sponsored competitions, the biggest one being Valorant Champions Tour, which has three main events a year: Master 1, Masters 2, and Champions. At these three events, the top teams from each region compete to crown an international winner.
