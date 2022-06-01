@@ -24,7 +24,7 @@ To add fun, the player will be told that they are kidnapped by the mafia because
 *How-to-Launch Instructions:*
 1. Clone this repo.
 2. Launch a terminal session and go to the directory containing Woo.java
-3. Rune these commands: 
+3. Run these commands: 
    ```
    $ javac Woo.java
    $ java Woo
