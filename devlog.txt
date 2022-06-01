@@ -80,7 +80,8 @@ Lea & Nina :: Updated README, created devlog
 
 2022-05-26: 1:03PM
 --------------------------------------------------------------
-Lindsay & Lea & Nina :: Made propro.pdf, deleted plan.txt, added flag.jpg, created v0 with sinbad.jar
+Lindsay & Lea & Nina :: Made propro.pdf, deleted plan.txt, added
+                        flag.jpg, created v0 with sinbad.jar
 ==============================================================
 
 2022-05-27: 2:39AM
@@ -96,4 +97,11 @@ Lindsay & Lea & Nina :: Made uml.pdf
 2022-06-01: 12:43AM
 --------------------------------------------------------------
 Lea :: Upload finished flowchart
+==============================================================
+
+2022-06-01: 1:15PM
+--------------------------------------------------------------
+Lea :: Updated WIP dataset
+Lindsay & Nina :: Created v1 -- made all necessary classes and
+                  filled them up
 ==============================================================
