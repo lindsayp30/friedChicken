@@ -22,6 +22,11 @@ To add fun, the player will be told that they are kidnapped by the mafia because
  * K/D ratio - Number of kills divided by number of deaths
 
 *How-to-Launch Instructions:*
-1. Launch Terminal and go to the directory containing Woo.java
-2. javac Woo.java
-3. java Woo
+1. Clone this repo.
+2. Launch a terminal session and go to the directory containing Woo.java
+3. Rune these commands: 
+   ```
+   $ javac Woo.java
+   $ java Woo
+   ```
+
