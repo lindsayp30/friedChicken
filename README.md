@@ -27,7 +27,8 @@ To add fun, the player will be told that they are kidnapped by the mafia because
 2. Launch a terminal session and go to the directory containing Woo.java
 3. Run these commands: 
    ```
-   $ javac Woo.java
+   $ javac -classpath .:./sinbad.jar -d . Woo.java
    $ java Woo
+
    ```
 
