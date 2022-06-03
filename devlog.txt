@@ -37,25 +37,31 @@ Flesh out each category whenever necessary, appropriate.
 OBSTACLES OVERCOME
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 wow we so BOSS bc...
+- we discussed our way through defining and labeling the
+  relationship between various classes
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 blah blah pesky bug...
 maybe some of these will move into the Obs.Ovrcm section...
+-
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 wow! oo!...
+-
 
 MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 we changed ___ to ___ bc...
+- map class to just a match class since both of them overlapped
+  a lot
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 tales of wisdom gained...
 ||||||||||||||||||||||||||||||||||||||||||
-
+- flowcharts pull through!
 
 
  ______   ______   __   __   __       ______   _______
@@ -106,8 +112,21 @@ Lindsay & Nina :: Created v1 -- made all necessary classes and
                   filled them up
 ==============================================================
 
+2022-06-01: 9:47PM
+--------------------------------------------------------------
+Lindsay :: Made welcome message in Woo
+==============================================================
+
 2022-06-02: 1:18PM
 --------------------------------------------------------------
-Lea & Lindsay & Nina :: Created v2 -- worked on class + driver 
+Lea & Lindsay & Nina :: Created v2 -- worked on class + driver
                         files
+==============================================================
+
+2022-06-02: 10:05PM
+--------------------------------------------------------------
+Lea :: Outlined plan for stats + flowchart lore
+Lindsay & Nina :: Worked on Woo + added comments throughout the
+                  main method for organization + worked on choose
+                  method
 ==============================================================

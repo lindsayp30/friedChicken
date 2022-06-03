@@ -1,0 +1,31 @@
+// welcome message to user
+
+// ask user to pick team 1
+    // offer options numbered 1-12
+    // user inputs int 1-12
+        // based on input, find data for that team
+
+// ask user to pick team 2
+    // offer options numbered 1-12
+    // user inputs int 1-12, check that they don't pick the same number
+        // based on input, find data for that team
+
+// ask user for map selection
+    // user picks option 1-9
+        // if single map, find data for only that map for both teams
+        // if all maps, find data for all maps for both teams, if available
+
+// print statistics based on user's input
+
+// prompt the user to pick a winner
+    // only offer ints 1-2 and user picks one of the two choices
+
+// prompt user to choose an mvp based on their winning team pick
+    // offer ints 1-5 and user picks only one player
+
+// ask user how much they want to bet
+    // user enters how much they bet
+
+// print out the "actual" prediction and amount won/lost
+
+// ask user if they want to play again?
