@@ -39,18 +39,18 @@ public class Match {
     //team2 = (Team) x;
   }
 
-  public Team getWinner() {
+  public String getWinner() {
     if (t1score > t2score) {
-      return team1;
+      return team1 + "";
     }
-    return team2;
+    return team2 + "";
   }
 
-  public Team getLoser() {
+  public String getLoser() {
     if (t1score > t2score) {
-      return team2;
+      return team2 + "";
     }
-    return team1;
+    return team1 + "";
   }
 
   public int getWinnerScore() {

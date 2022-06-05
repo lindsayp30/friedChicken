@@ -1,5 +1,5 @@
 public class Player {
-  private String name, team_name;
+  private String name, team_name, map;
   private int kills, deaths, acs, adr, kast;
   private float kd;
 
@@ -20,6 +20,10 @@ public class Player {
 
   public String getTeamName(){
     return team_name;
+  }
+
+  public String getMap() {
+    return map;
   }
 
   public int getKills() {

@@ -1,10 +1,11 @@
 import core.data.*;
 import java.util.*;
+import java.io.*;
 
 public class Woo {
 
   // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
-  private int totalMoney;
+  private static int totalMoney;
   //private Match thisMatch = new Match();
 
   private static String thvs = "100 Thieves";
@@ -189,27 +190,51 @@ public class Woo {
     //load data into players
     DataSource data = DataSource.connect("VCTmastersv1.csv").load();
     data.printUsageString();
-    ArrayList<Player> allPlayers  = data.fetchList("player_name", "team", "kills", "deaths", "acs", "adr", "kast");
+    ArrayList<Player> allPlayers  = data.fetchList("player_name", "team", "map", "kills", "deaths", "acs", "adr", "kast");
+
+    //filter out all players on team1 that match the map picked
+    ArrayList<Player> team1Players = new ArrayList<Player>();
+    for(Player p : allPlayers){
+      if(p.getTeamName().equals(t1Choice) && p.getMap().equals(mapChoice.toLowerCase())){
+        team1Players.add(p);
+      }
+    }
+
+
+    //filter out all players on team2 that match the map picked
+    ArrayList<Player> team2Players = new ArrayList<Player>();
+    for(Player p : allPlayers){
+      if(p.getTeamName().equals(t1Choice) && p.getMap().equals(mapChoice.toLowerCase())){
+        team2Players.add(p);
+      }
+    }
+
+    //put the players on their respective teams
+
 
   }//end playGame()
 
-  public void choose() {
+  public static void choose() {
     System.out.println("Who do you think the victor is?");
     Scanner guess = new Scanner(System.in);
     String answer = guess.nextLine();
     answer = answer.toLowerCase();
     try {
-      if (answer.equals(team1.getName())) {
-        if (match.getWinner() == team1) {
-
+      if (answer.equals(t1Choice)) {
+        if (match.getWinner(),equals(t1Choice)) {
+          System.out.println("Right! Take the money!");
+          totalMoney += 500;
         } else {
-
+          System.out.println("Wrong... There goes your money.");
+          totalMoney -= 500;
         }
-      } else if (answer.equals(team2.getName())) {
-        if (match.getWinner() == team2) {
-
+      } else if (answer.equals(t2Choice)) {
+        if (match.getWinner().equals(t2Choice)) {
+          System.out.println("Right! Take the money!");
+          totalMoney += 500;
         } else {
-
+          System.out.println("Wrong... There goes your money.");
+          totalMoney -= 500;
         }
       }
     }
