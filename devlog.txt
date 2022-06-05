@@ -44,12 +44,12 @@ UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 blah blah pesky bug...
 maybe some of these will move into the Obs.Ovrcm section...
--
+- fix the setTeam() in Match.java
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 wow! oo!...
--
+- 
 
 MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -129,4 +129,9 @@ Lea :: Outlined plan for stats + flowchart lore
 Lindsay & Nina :: Worked on Woo + added comments throughout the
                   main method for organization + worked on choose
                   method
+==============================================================
+
+2022-06-04: 11:30PM
+--------------------------------------------------------------
+Lea :: upload v5 with small edits and additions
 ==============================================================
