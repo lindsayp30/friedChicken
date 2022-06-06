@@ -29,7 +29,7 @@ To add fun, the player will be told that they are kidnapped by the mafia because
 3. Run these commands: 
    ```
    $ javac -classpath .:./sinbad.jar -d . Woo.java
-   $ java Woo
+   $ java -classpath .:./sinbad.jar Woo
 
    ```
 
