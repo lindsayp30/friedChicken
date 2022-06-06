@@ -39,12 +39,14 @@ OBSTACLES OVERCOME
 wow we so BOSS bc...
 - we discussed our way through defining and labeling the
   relationship between various classes
+- we were able to separate Players by their team name and map pick
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 blah blah pesky bug...
 maybe some of these will move into the Obs.Ovrcm section...
 - fix the setTeam() in Match.java
+- making sure the player cannot enter anything other than integers
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -56,6 +58,7 @@ MID-DEVELOPMENT DESIGN CHANGES
 we changed ___ to ___ bc...
 - map class to just a match class since both of them overlapped
   a lot
+- added date and team name to Player.java
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -139,4 +142,9 @@ Lea :: upload v5 with small edits and additions
 2022-06-05: 6:30PM
 --------------------------------------------------------------
 Lea & Lindsay & Nina :: Worked on Woo 
+==============================================================
+
+2022-06-06: 1:19PM
+--------------------------------------------------------------
+Lea & Lindsay & Nina :: Worked on Woo, Player, Team; lots of compile testing
 ==============================================================
