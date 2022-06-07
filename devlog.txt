@@ -46,19 +46,18 @@ UNRESOLVED ISSUES
 blah blah pesky bug...
 maybe some of these will move into the Obs.Ovrcm section...
 - fix the setTeam() in Match.java
-- making sure the player cannot enter anything other than integers
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 wow! oo!...
-- 
+- ANSI color effects!
 
 MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 we changed ___ to ___ bc...
 - map class to just a match class since both of them overlapped
   a lot
-- added date and team name to Player.java
+- added date and team name to Player.java to better group Players
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -141,10 +140,17 @@ Lea :: upload v5 with small edits and additions
 
 2022-06-05: 6:30PM
 --------------------------------------------------------------
-Lea & Lindsay & Nina :: Worked on Woo 
+Lea & Lindsay & Nina :: Worked on Woo
 ==============================================================
 
 2022-06-06: 1:19PM
 --------------------------------------------------------------
 Lea & Lindsay & Nina :: Worked on Woo, Player, Team; lots of compile testing
 ==============================================================
+
+2022-06-06: 8:15PM
+--------------------------------------------------------------
+Lea & Lindsay & Nina :: Worked on Woo, added color effect, ensured that player
+                        can't input something invalid
+==============================================================
+

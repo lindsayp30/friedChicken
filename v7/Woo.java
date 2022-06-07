@@ -35,24 +35,22 @@ public class Woo {
   //private static Match t1Matches = new Match();
   //private static Match t2Matches = new Match();
 
-  private InputStreamReader isr;
-  private BufferedReader in;
+  public static final String reset = "\u001B[0m";
+  public static final String yellow = "\u001B[33m";
+  public static final String red = "\u001B[31m";
+  public static final String red_back = "\u001B[41m";
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   // ~~~~~~~~~~~~~~ METHODS ~~~~~~~~~~~~~~~~~~~
-  public Woo(){
-    isr = new InputStreamReader( System.in );
-    in = new BufferedReader( isr );
-  }
-
   public static void welcomeMessage() {
-    String s = "<<<Preparing for hellfire>>>" +
-    "\nYou are kidnapped by the mafia because of your enormous debt caused by your" +
-    "\n addiction to gambling. You are offered a final chance to pay off your debt." +
-    "\n Not to worry, though, as you will be assisted with our PREDICTION GEN. Will" +
-    "\n you get off debt-free or will you suffer in damnation?";
-    //maybe some art or GUI feature here
-    System.out.println("Are you ready?");
+    String s = red_back + "<<<Preparing for hellfire>>>" + reset +
+    yellow + "\nYou are kidnapped by the mafia because of your enormous debt caused" +
+    "by your addiction to gambling. \nYou are offered a final chance to pay off" +
+    " your debt. \nNot to worry, though, as you will be assisted with our PREDICTION" +
+    "GEN." + reset + red_back + "\nWill you get off debt-free or will you suffer" +
+    "in damnation?" + reset;
+    System.out.println(s);
+    System.out.println(yellow + "Are you ready?" + reset);
     while (true) {
       Scanner pick = new Scanner(System.in);
       String choice = pick.nextLine();
@@ -63,12 +61,13 @@ public class Woo {
     }
   }//end welcomeMessage()
 
+  public static String choice;
+
   public static void playGame() {
 
 
     //player chooses team1
-    System.out.println("What teams would you like to see?");
-    System.out.println("Choose team 1: ");
+    System.out.println(red + "Choose team 1: " + reset);
     String list = "1: " + thvs +
     "\n2: " + xset +
     "\n3: " + ghst +
@@ -82,39 +81,55 @@ public class Woo {
     "\n11: " + c9 +
     "\n12: " + sen;
     System.out.println(list);
-    Scanner pick = new Scanner(System.in);
-    String choice = pick.nextLine();
-    choice = choice.toLowerCase();
-
+    while (true) {
+      Scanner pick = new Scanner(System.in);
+      choice = pick.nextLine();
+      choice = choice.toLowerCase();
+      int numChoice = Integer.parseInt(choice);
+      if ((0 < numChoice) && (numChoice < 13)) {
         if (choice.equals("1")) {
           t1Choice = thvs;
+          break;
         } else if (choice.equals("2")) {
           t1Choice = xset;
+          break;
         } else if (choice.equals("3")) {
           t1Choice = ghst;
+          break;
         } else if (choice.equals("4")) {
           t1Choice = grd;
+          break;
         } else if (choice.equals("5")) {
           t1Choice = tsm;
+          break;
         } else if (choice.equals("6")) {
           t1Choice = nrg;
+          break;
         } else if (choice.equals("7")) {
           t1Choice = optc;
+          break;
         } else if (choice.equals("8")) {
           t1Choice = eg;
+          break;
         } else if (choice.equals("9")) {
           t1Choice = lg;
+          break;
         } else if (choice.equals("10")) {
           t1Choice = faze;
+          break;
         } else if (choice.equals("11")) {
           t1Choice = c9;
+          break;
         } else if (choice.equals("12")) {
           t1Choice = sen;
+          break;
         }
+      }
+    }
 
 
     //player chooses team2
-    System.out.println("Choose team 2: ");
+    System.out.println(red + "Choose team 2: " + reset);
     String list2 = "1: " + thvs +
     "\n2: " + xset +
     "\n3: " + ghst +
@@ -128,40 +143,56 @@ public class Woo {
     "\n11: " + c9 +
     "\n12: " + sen;
     System.out.println(list2);
+    while (true) {
     Scanner pick2 = new Scanner(System.in);
     String choice2 = pick2.nextLine();
     choice2 = choice2.toLowerCase();
-
-      if (!(choice2.equals(choice))) {
+    int numChoice2 = Integer.parseInt(choice2);
+    if (!(choice2.equals(choice))) {
+      if ((0 < numChoice2) && (numChoice2 < 13)) {
         if (choice2.equals("1")) {
           t2Choice = thvs;
+          break;
         } else if (choice2.equals("2")) {
           t2Choice = xset;
+          break;
         } else if (choice2.equals("3")) {
           t2Choice = ghst;
+          break;
         } else if (choice2.equals("4")) {
           t2Choice = grd;
+          break;
         } else if (choice2.equals("5")) {
           t2Choice = tsm;
+          break;
         } else if (choice2.equals("6")) {
           t2Choice = nrg;
+          break;
         } else if (choice2.equals("7")) {
           t2Choice = optc;
+          break;
         } else if (choice2.equals("8")) {
           t2Choice = eg;
+          break;
         } else if (choice2.equals("9")) {
           t2Choice = lg;
+          break;
         } else if (choice2.equals("10")) {
           t2Choice = faze;
+          break;
         } else if (choice2.equals("11")) {
           t2Choice = c9;
+          break;
         } else if (choice2.equals("12")) {
           t2Choice = sen;
+          break;
         }
-    }
+      }
+  }
+}
 
     //player chooses map
-    System.out.println("Choose a map: ");
+    System.out.println(red + "Choose a map: " + reset);
     String list3 = "1: " + fra +
     "\n2: " + bre +
     "\n3: " + ice +
@@ -170,25 +201,36 @@ public class Woo {
     "\n6: " + spl +
     "\n7: " + asc;
     System.out.println(list3);
+    while (true) {
     Scanner pick3 = new Scanner(System.in);
     String choice3 = pick3.nextLine();
     choice3 = choice3.toLowerCase();
-
+    int numChoice3 = Integer.parseInt(choice3);
+      if ((0 < numChoice3) && (numChoice3 < 8)) {
       if (choice3.equals("1")) {
         mapChoice = fra;
+        break;
       } else if (choice3.equals("2")) {
         mapChoice = bre;
+        break;
       } else if (choice3.equals("3")) {
         mapChoice = ice;
+        break;
       } else if (choice3.equals("4")) {
         mapChoice = bin;
+        break;
       } else if (choice3.equals("5")) {
         mapChoice = hav;
+        break;
       } else if (choice3.equals("6")) {
         mapChoice = spl;
+        break;
       } else if (choice3.equals("7")) {
         mapChoice = asc;
+        break;
       }
+    }
+  }
 
 
     //load data into players
@@ -202,6 +244,7 @@ public class Woo {
         team1Players.add(p);
       }
     }
+    System.out.println("players filtered: " + team1Players);
 
 
     //filter out all players on team2 that match the map picked
@@ -211,6 +254,7 @@ public class Woo {
         team2Players.add(p);
       }
     }
+    System.out.println("players filtered: " + team2Players);
 
     /*
     System.out.println(allPlayers);
@@ -218,30 +262,33 @@ public class Woo {
     System.out.println(team2Players);
     */
 
-
     //put the players on their respective teams
 
     //put players on team 1, separate by match dates
+    ArrayList<Team> team1 = new ArrayList<Team>();
+    for(int i = 0 ; i < team1Players.size() / 5; i*=5){
+      team1.add(new Team(team1Players.get(i), team1Players.get(i+1), team1Players.get(i+2), team1Players.get(i+3), team1Players.get(i+4)) );
+      System.out.println(team1);
+    }
 
-
-
-    for(int i = 0 ; i < team1Players.size() -1; i++){
-      if(team1Players.get(i).getDate().equals(team1Players.get(i+1).getDate())){
-        Team team_i = new Team(t1Choice);
-        team_i.addPlayer(team1Players.get(i));
-        System.out.println(team_i);
-
-      }
-
+    //put players on team 2, separate by match dates
+    ArrayList<Team> team2 = new ArrayList<Team>();
+    for(int i = 0 ; i < team2Players.size() / 5; i*=5){
+      team1.add(new Team(team2Players.get(i), team2Players.get(i+1), team2Players.get(i+2), team2Players.get(i+3), team2Players.get(i+4)) );
+      System.out.println(team2);
     }
 
 
 
 
-    //put players on team 2, separate by match dates
 
 
-  }//end playGame()
+
+
+
+
+  } //end playGame()
+
 /*
   public static void choose() {
     System.out.println("Who do you think the victor is?");

@@ -1,18 +1,17 @@
 public class Match {
   private String mapName;
-  private Team team1, team2;
-  private int t1score, t2score;
+  private Team team1;
+  private int roundsWon, roundsLost;
 
-  //connect team1 with t1score, team2 with t2score
+  //connect team1 with roundsWon, team2 with roundsLost
 
   public Match() {
 
   }
 
-  public Match(String m, Team t1, Team t2) {
+  public Match(String m, Team t1) {
     mapName = m;
     team1 = t1;
-    team2 = t2;
   }
 
   public String getMap() {
@@ -27,44 +26,53 @@ public class Match {
     return team1;
   }
 
-  public Team getTeam2() {
-    return team2;
+  public void setTeam1(Team x) {
+    team1 = x;
   }
 
-  public void setTeam1(String x) {
-    //team1 = (Team) x;
-  }
-
-  public void setTeam2(String x) {
-    //team2 = (Team) x;
-  }
 
   public String getWinner() {
-    if (t1score > t2score) {
+    if (roundsWon > roundsLost) {
       return team1 + "";
     }
     return team2 + "";
   }
 
   public String getLoser() {
-    if (t1score > t2score) {
+    if (roundsLost > roundsWon) {
       return team2 + "";
     }
     return team1 + "";
   }
 
   public int getWinnerScore() {
-    if (t1score > t2score) {
-      return t1score;
+    if (roundsWon > roundsLost) {
+      return roundsWon;
     }
-    return t2score;
+    return roundsLost;
   }
 
   public int getLoserScore() {
-    if (t1score > t2score) {
-      return t2score;
+    if (roundsWon > roundsLost) {
+      return roundsLost;
     }
-    return t1score;
+    return roundsWon;
+  }
+
+  public void setWon(int x){
+    roundsWon = x;
+  }
+
+  public void setLost(int x){
+    roundsLost = x;
+  }
+
+  public int getWon(){
+    return roundsWon;
+  }
+
+  public int getLost(){
+    return roundsLost;
   }
 
   public static void main(String[] args) {
