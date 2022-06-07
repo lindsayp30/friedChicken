@@ -51,41 +51,31 @@ public class Team {
 
   public int averageKills() {
     int totalKills = 0;
-    for (int i = 0; i < team.size(); i++) {
-      totalKills += team.get(i).getKills();
-    }
+    totalKills = p1.getKills() + p2.getKills() + p3.getKills() + p4.getKills() + p5.getKills();
     return totalKills / 5;
   }
 
   public int averageDeath() {
     int totalDeaths = 0;
-    for (int i = 0; i < team.size(); i++) {
-      totalDeaths += team.get(i).getDeaths();
-    }
+    totalDeaths = p1.getDeaths() + p2.getDeaths() + p3.getDeaths() + p4.getDeaths() + p5.getDeaths();
     return totalDeaths / 5;
   }
 
   public int averageACS() {
     int totalACS = 0;
-    for (int i = 0; i < team.size(); i++) {
-      totalACS += team.get(i).getACS();
-    }
+    totalACS = p1.getACS() + p2.getACS() + p3.getACS() + p4.getACS() + p5.getACS();
     return totalACS / 5;
   }
 
   public int averageADR() {
     int totalADR = 0;
-    for (int i = 0; i < team.size(); i++) {
-      totalADR += team.get(i).getADR();
-    }
+    totalADR = p1.getADR() + p2.getADR() + p3.getADR() + p4.getADR() + p5.getADR();
     return totalADR / 5;
   }
 
   public int averageKAST() {
     int totalKast = 0;
-    for (int i = 0; i < team.size(); i++) {
-      totalKast += team.get(i).getKAST();
-    }
+    totalKast = p1.getKAST() + p2.getKAST() + p3.getKAST() + p4.getKAST() + p5.getKAST();
     return totalKast / 5;
   }
 

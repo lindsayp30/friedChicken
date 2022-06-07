@@ -35,6 +35,18 @@ public class Woo {
   //private static Match t1Matches = new Match();
   //private static Match t2Matches = new Match();
 
+  private static int avACS1;
+  private static int avADR1;
+  private static int avKills1;
+  private static int avDeaths1;
+  private static int avKAST1;
+
+  private static int avACS2;
+  private static int avADR2;
+  private static int avKills2;
+  private static int avDeaths2;
+  private static int avKAST2;
+
   public static final String reset = "\u001B[0m";
   public static final String yellow = "\u001B[33m";
   public static final String red = "\u001B[31m";
@@ -234,7 +246,7 @@ public class Woo {
 
 
     //load data into players
-    DataSource data = DataSource.connect("./VCTmastersv1.csv").load();
+    DataSource data = DataSource.connect("./VCTmastersv8.csv").load();
 
     ArrayList<Player> allPlayers  = data.fetchList("Player", "player_name", "team", "map", "kills", "deaths", "acs", "adr", "kast", "date");
 
@@ -257,25 +269,35 @@ public class Woo {
     }
     System.out.println("players filtered in team 2: " + team2Players);
 
+    if (team1Players.size() == 0 && team2Players.size() == 0) {
+      System.out.println(red_back + "This combination does not exist. It is up to you to guess." + reset);
+    }
 
     //put the players on their respective teams
 
     //put players on team 1, separate by match dates
     ArrayList<Team> team1 = new ArrayList<Team>();
-    for(int i = 0 ; i < team1Players.size() / 5; i*=5){
+    for(int i = 0 ; i < team1Players.size() - 4; i+=5){
       team1.add(new Team(team1Players.get(i), team1Players.get(i+1), team1Players.get(i+2), team1Players.get(i+3), team1Players.get(i+4)) );
-      // System.out.println(team1);
+      //System.out.println(team1.get(i / 5));
     }
 
     //put players on team 2, separate by match dates
     ArrayList<Team> team2 = new ArrayList<Team>();
-    for(int i = 0 ; i < team2Players.size() / 5; i*=5){
+    for(int i = 0 ; i < team2Players.size() - 4; i+=5){
       team1.add(new Team(team2Players.get(i), team2Players.get(i+1), team2Players.get(i+2), team2Players.get(i+3), team2Players.get(i+4)) );
-      // System.out.println(team2);
+      //System.out.println(team2.get(i / 5));
     }
 
 
-
+    for(Team t : team1) {
+      avACS1 += t.averageACS();
+      avADR1 += t.averageADR();
+      avKills1 += t.averageKills();
+      avDeaths1 += t.averageDeath();
+      avKAST1 += t.averageKAST();
+    }
+    System.out.println(avACS1 / team1.size());
 
 
 
