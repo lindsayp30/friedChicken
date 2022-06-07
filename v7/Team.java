@@ -3,14 +3,21 @@ import java.util.ArrayList;
 public class Team {
   private ArrayList<Player> team = new ArrayList<Player>();
   private String teamName;
+  private int roundsWon, roundsLost;
+  private Player p1, p2, p3, p4, p5;
 
   public Team() {
 
   }
 
-  public Team(String tN) {
+  public Team(Player uno, Player dos, Player tres, Player cuatro, Player cinco) {
     //team = t;
-    teamName = tN;
+    p1 = uno;
+    p2 = dos;
+    p3 = tres;
+    p4 = cuatro;
+    p5 = cinco;
+    teamName = uno.getTeamName();
   }
 
   public void addPlayer(Player p){
