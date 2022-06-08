@@ -24,27 +24,37 @@ public class Team {
     team.add(p);
   }
 
+  private static String mvp;
+
   //calculated through ACS for winning team
   public String calcMVP() {
-    String mvp = "";
-    int mvpACS = team.get(0).getACS();
-    for (int i = 0; i < team.size()-1; i++) {
-      if (team.get(i).getACS() > mvpACS) {
-        mvpACS = team.get(i).getACS();
-        mvp = team.get(i).getName();
-      }
+    if ((p1.getACS() > p2.getACS()) && (p1.getACS() > p3.getACS()) && (p1.getACS() > p4.getACS()) && (p1.getACS() > p5.getACS())) {
+      mvp = p1.getName();
+    } else if ((p2.getACS() > p1.getACS()) && (p2.getACS() > p3.getACS()) && (p2.getACS() > p4.getACS()) && (p2.getACS() > p5.getACS())) {
+      mvp = p2.getName();
+    } else if ((p3.getACS() > p1.getACS()) && (p3.getACS() > p2.getACS()) && (p3.getACS() > p4.getACS()) && (p3.getACS() > p5.getACS())) {
+      mvp = p3.getName();
+    } else if ((p4.getACS() > p1.getACS()) && (p4.getACS() > p2.getACS()) && (p4.getACS() > p3.getACS()) && (p4.getACS() > p5.getACS())) {
+      mvp = p4.getName();
+    } else if ((p5.getACS() > p1.getACS()) && (p5.getACS() > p2.getACS()) && (p5.getACS() > p3.getACS()) && (p5.getACS() > p4.getACS())) {
+      mvp = p5.getName();
     }
     return mvp;
   }
 
+  private static String lvp;
+
   public String calcLVP() {
-    String lvp = "";
-    int lvpACS = team.get(0).getACS();
-    for (int i = 0; i < team.size()-1; i++) {
-      if (team.get(i).getACS() < lvpACS) {
-        lvpACS = team.get(i).getACS();
-        lvp = team.get(i).getName();
-      }
+    if ((p1.getACS() < p2.getACS()) && (p1.getACS() < p3.getACS()) && (p1.getACS() < p4.getACS()) && (p1.getACS() < p5.getACS())) {
+      mvp = p1.getName();
+    } else if ((p2.getACS() < p1.getACS()) && (p2.getACS() < p3.getACS()) && (p2.getACS() < p4.getACS()) && (p2.getACS() < p5.getACS())) {
+      mvp = p2.getName();
+    } else if ((p3.getACS() < p1.getACS()) && (p3.getACS() < p2.getACS()) && (p3.getACS() < p4.getACS()) && (p3.getACS() < p5.getACS())) {
+      mvp = p3.getName();
+    } else if ((p4.getACS() < p1.getACS()) && (p4.getACS() < p2.getACS()) && (p4.getACS() < p3.getACS()) && (p4.getACS() < p5.getACS())) {
+      mvp = p4.getName();
+    } else if ((p5.getACS() < p1.getACS()) && (p5.getACS() < p2.getACS()) && (p5.getACS() < p3.getACS()) && (p5.getACS() < p4.getACS())) {
+      mvp = p5.getName();
     }
     return lvp;
   }

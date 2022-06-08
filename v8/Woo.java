@@ -269,9 +269,6 @@ public class Woo {
     }
     System.out.println("players filtered in team 2: " + team2Players);
 
-    if (team1Players.size() == 0 && team2Players.size() == 0) {
-      System.out.println(red_back + "This combination does not exist. It is up to you to guess." + reset);
-    }
 
     //put the players on their respective teams
 
@@ -297,13 +294,34 @@ public class Woo {
       avDeaths1 += t.averageDeath();
       avKAST1 += t.averageKAST();
     }
-    System.out.println(avACS1 / team1.size());
 
 
+    for(Team t : team2) {
+      avACS2 += t.averageACS();
+      avADR2 += t.averageADR();
+      avKills2 += t.averageKills();
+      avDeaths2 += t.averageDeath();
+      avKAST2 += t.averageKAST();
+    }
 
 
+    if (team1Players.size() == 0 && team2Players.size() == 0) {
+      System.out.println(red_back + "This combination does not exist. It is up to you to guess." + reset);
+    } else {
+      System.out.println(red_back + "<<<STATS FOR TEAM 1>>>" + reset);
+      System.out.println("average ACS:" + avACS1 / team1.size());
+      System.out.println("average ADR:" + avADR1 / team1.size());
+      System.out.println("average kills:" + avKills1 / team1.size());
+      System.out.println("average deaths:" + avDeaths1 / team1.size());
+      System.out.println("average KAST:" + avKAST1 / team1.size());
 
-
+      System.out.println(red_back + "<<<STATS FOR TEAM 2>>>" + reset);
+      System.out.println("average ACS:" + avACS2 / team2.size());
+      System.out.println("average ADR:" + avADR2 / team2.size());
+      System.out.println("average kills:" + avKills2 / team2.size());
+      System.out.println("average deaths:" + avDeaths2 / team2.size());
+      System.out.println("average KAST:" + avKAST2 / team2.size());
+    }
 
   } //end playGame()
 
