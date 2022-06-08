@@ -23,12 +23,14 @@ wow we so BOSS bc...
 - we discussed our way through defining and labeling the
   relationship between various classes
 - we were able to separate Players by their team name and map pick
+- we figured out how to create new objects in a loop by changing and using the constructor instead of instantiating a new object
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 blah blah pesky bug...
 maybe some of these will move into the Obs.Ovrcm section...
 - fix the setTeam() in Match.java
+- delete Match.java?
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,12 +43,14 @@ we changed ___ to ___ bc...
 - map class to just a match class since both of them overlapped
   a lot
 - added date and team name to Player.java to better group Players
+- put rounds won and lost in Team.java
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 tales of wisdom gained...
 ||||||||||||||||||||||||||||||||||||||||||
 - flowcharts pull through!
+- a lot more planning is needed to avoid mid-development road blocks
 
 
  ______   ______   __   __   __       ______   _______
@@ -145,4 +149,9 @@ Lea & Lindsay & Nina :: Worked on Woo, solved discrepancies in Team
 2022-06-07: 10:22PM
 --------------------------------------------------------------
 Lindsay :: Worked on Woo such to show stats, continued solving discrepancy in Team
+==============================================================
+
+2022-06-08: 2:45AM
+--------------------------------------------------------------
+Lea :: Created prediction calculator and edited Team.java and Player.java to match changes in Woo
 ==============================================================
