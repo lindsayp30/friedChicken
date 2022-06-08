@@ -14,23 +14,6 @@ We aim to use match statistics from previous matches from VCT to predict whether
 
 To add fun, the player will be told that they are kidnapped by the mafia because of their enormous debt caused by their gambling problem. They are offered one last chance to pay off their debt with the aid of our project, a prediction generator, by betting on the correct team in VCT. The project will also aid them in suggesting the proper amount of money to bet to maximize gains, as long as the user inputs their starting amount.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-USAGE:
-* Replace all fields, angle brackets included, with specified info.
-  eg, pd <pd#> --> pd 3
-* Delete this instruction block once all teammates understand usage.
-
-devlog--
-Use keyboard shortcut to jump to end,
- replicate entry template,
- modify appropriately.
-
-zone of reflection--
-Flesh out each category whenever necessary, appropriate.
- Need not be fully filled in until end of project,
- but best done as you go along.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 /////////// Zone of Reflection \\\\\\\\\\\
 ------------------------------------------
@@ -148,9 +131,18 @@ Lea & Lindsay & Nina :: Worked on Woo
 Lea & Lindsay & Nina :: Worked on Woo, Player, Team; lots of compile testing
 ==============================================================
 
-2022-06-06: 8:15PM
+2022-06-06: 7:11PM
 --------------------------------------------------------------
 Lea & Lindsay & Nina :: Worked on Woo, added color effect, ensured that player
                         can't input something invalid
 ==============================================================
 
+2022-06-07: 1:16PM
+--------------------------------------------------------------
+Lea & Lindsay & Nina :: Worked on Woo, solved discrepancies in Team
+==============================================================
+
+2022-06-07: 10:22PM
+--------------------------------------------------------------
+Lindsay :: Worked on Woo such to show stats, continued solving discrepancy in Team
+==============================================================
