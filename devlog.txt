@@ -155,3 +155,8 @@ Lindsay :: Worked on Woo such to show stats, continued solving discrepancy in Te
 --------------------------------------------------------------
 Lea :: Created prediction calculator and edited Team.java and Player.java to match changes in Woo
 ==============================================================
+
+2022-06.09: 1:56 PM
+--------------------------------------------------------------
+Nina :: Worked on debugging Woo.java, fixed unreachable statement
+==============================================================
