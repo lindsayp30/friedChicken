@@ -359,6 +359,7 @@ public class Woo {
 
     System.out.println(yellow + "Choose the victor: " +
     "\n" + t1Choice + "\n" + t2Choice + "" + reset);
+
     while (true) {
       Scanner pick4 = new Scanner(System.in);
       choice4 = pick4.nextLine();
@@ -370,10 +371,12 @@ public class Woo {
           System.out.println("players in team: " + team2Players);
         break;
       }
+      break;
     }
 
     System.out.println(yellow + "Choose the MVP: " +
-    "\n" + t1Choice + "\n" + t2Choice + "" + reset);
+    "\n" + team1Players + "\n" + team2Players + "" + reset);
+
     while (true) {
       Scanner pick5 = new Scanner(System.in);
       String choice5 = pick5.nextLine();
@@ -392,8 +395,9 @@ public class Woo {
             break;
           }
         }
-      }
-    }
+      } //ends if-else
+      break;
+    } //ends while loop
 
     //make our prediction
     //compare each team's average statistics
