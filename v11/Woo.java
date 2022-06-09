@@ -375,7 +375,7 @@ public class Woo {
     }
 
     System.out.println(yellow + "Choose the MVP: " +
-    "\n" + team1Players + "\n" + team2Players + "" + reset);
+    "\n" + "Team 1 Players: " + team1Players + "\n" + "Team 2 Players: " + team2Players + "" + reset);
 
     while (true) {
       Scanner pick5 = new Scanner(System.in);
@@ -399,13 +399,14 @@ public class Woo {
       break;
     } //ends while loop
 
-    System.out.println(yellow + "Insert the amount you would like to bet (must be greater than $50,000): ");
+    System.out.println(yellow + "Insert the amount you would like to bet (must be greater than $50,000): " + reset);
+    System.out.println("Remaining money: " + totalMoney);
+    Scanner playerBet = new Scanner(System.in);
+    String choice6 = playerBet.next();
+    int theBet = Integer.parseInt(choice6);
     while (true) {
-      Scanner playerBet = new Scanner(System.in);
-      String choice6 = playerBet.next();
-      int theBet = Integer.parseInt(choice6);
       if(theBet >= 50000) {
-        totalMoney -= 50000;
+        totalMoney -= theBet;
         break;
       } else {
         System.out.println("That is not a valid amount.");
@@ -495,22 +496,16 @@ public class Woo {
     }
     else if(t1Count == t2Count){
       System.out.println("Both teams have an equal chance of winning.");
+      System.out.println("Remaining money: "+ totalMoney);
     }
 
     if (choice4.equals(predWinner)) {
       System.out.println(yellow + "Right on!" + reset);
-      totalMoney += 500000;
+      totalMoney += theBet;
+      System.out.println("Remaining money: "+ totalMoney);
     } else {
       System.out.println(red + "Very off..." + reset);
-      totalMoney -= 500000;
-    }
-
-    if (totalMoney > 0) {
-      System.out.println(yellow + "You successfully escaped! Your debt is non-existent" +
-      " and now you can enjoy your life. :)" + reset);
-    } else {
-      System.out.println(red + "You didn't escape... Your life was taken away from" +
-      " you." + reset);
+      System.out.println("Remaining money: "+ totalMoney);
     }
 
   } //end playGame()
@@ -524,6 +519,15 @@ public class Woo {
 
     for (int i = 0; i < 3; i++) {
       playGame();
+    }
+
+    if (totalMoney > 0) {
+      System.out.println(yellow + "You successfully escaped! Your debt is non-existent" +
+      " and now you can enjoy your life. :)" + reset);
+    } else {
+      System.out.println("Remaining money: "+ totalMoney);
+      System.out.println(red + "You didn't escape... Your life was taken away from" +
+      " you." + reset);
     }
 
   }//end main
