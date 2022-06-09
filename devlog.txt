@@ -158,5 +158,6 @@ Lea :: Created prediction calculator and edited Team.java and Player.java to mat
 
 2022-06.09: 1:56 PM
 --------------------------------------------------------------
-Nina :: Worked on debugging Woo.java, fixed unreachable statement
+Nina :: Worked on debugging Woo.java, fixed unreachable statement +
+	allowed player to input valid amount of money to bet
 ==============================================================

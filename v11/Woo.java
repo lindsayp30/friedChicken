@@ -399,6 +399,19 @@ public class Woo {
       break;
     } //ends while loop
 
+    System.out.println(yellow + "Insert the amount you would like to bet (must be greater than $50,000): ");
+    while (true) {
+      Scanner playerBet = new Scanner(System.in);
+      String choice6 = playerBet.next();
+      int theBet = Integer.parseInt(choice6);
+      if(theBet >= 50000) {
+        totalMoney -= 50000;
+        break;
+      } else {
+        System.out.println("That is not a valid amount.");
+      }
+    }
+
     //make our prediction
     //compare each team's average statistics
 
