@@ -72,9 +72,9 @@ public class Woo {
   public static void welcomeMessage() {
     String s = red_back + "<<<Preparing for hellfire>>>" + reset +
     yellow + "\nYou are kidnapped by the mafia because of your enormous debt caused" +
-    "by your addiction to gambling. \nYou are offered a final chance to pay off" +
+    " by your addiction to gambling. \nYou are offered a final chance to pay off" +
     " your debt. \nNot to worry, though, as you will be assisted with our PREDICTION" +
-    "GEN." + reset + red_back + "\nWill you get off debt-free or will you suffer " +
+    "_GEN." + reset + red_back + "\nWill you get off debt-free or will you suffer " +
     "in damnation?" + reset;
     System.out.println(s);
     System.out.println(yellow + "Are you ready?" + reset);
@@ -92,7 +92,7 @@ public class Woo {
   public static void playGame() {
 
     //player chooses team1
-    System.out.println(red + "Choose team 1: " + reset);
+    System.out.println("\n" + red + "Choose team 1: " + reset);
     String list = "1: " + thvs +
     "\n2: " + xset +
     "\n3: " + ghst +
@@ -154,7 +154,7 @@ public class Woo {
 
 
     //player chooses team2
-    System.out.println(red + "Choose team 2: " + reset);
+    System.out.println("\n" + red + "Choose team 2: " + reset);
     String list2 = "1: " + thvs +
     "\n2: " + xset +
     "\n3: " + ghst +
@@ -217,7 +217,7 @@ public class Woo {
 }
 
     //player chooses map
-    System.out.println(red + "Choose a map: " + reset);
+    System.out.println("\n" + red + "Choose a map: " + reset);
     String list3 = "1: " + fra +
     "\n2: " + bre +
     "\n3: " + ice +
@@ -270,8 +270,6 @@ public class Woo {
         team1Players.add(p);
       }
     }
-    System.out.println("players filtered in team 1: " + team1Players);
-
 
     //filter out all players on team2 that match the map picked
     ArrayList<Player> team2Players = new ArrayList<Player>();
@@ -280,7 +278,6 @@ public class Woo {
         team2Players.add(p);
       }
     }
-    System.out.println("players filtered in team 2: " + team2Players);
 
     //put players on team 1, separate by match dates
     ArrayList<Team> team1 = new ArrayList<Team>();
@@ -288,7 +285,6 @@ public class Woo {
       team1.add(new Team(team1Players.get(i), team1Players.get(i+1), team1Players.get(i+2), team1Players.get(i+3), team1Players.get(i+4)) );
       //System.out.println(team1.get(i / 5));
     }
-    System.out.println("team 1: " + team1);
 
     //put players on team 2, separate by match dates
     ArrayList<Team> team2 = new ArrayList<Team>();
@@ -296,7 +292,6 @@ public class Woo {
       team2.add(new Team(team2Players.get(i), team2Players.get(i+1), team2Players.get(i+2), team2Players.get(i+3), team2Players.get(i+4)) );
       //System.out.println(team2.get(i / 5));
     }
-    System.out.println("team 2: " + team2);
 
     //collect average statistics for team 1 over all instances of maps
     for(Team t : team1) {
@@ -308,7 +303,6 @@ public class Woo {
       avRounds1 += t.getRoundDifference();
     }
 
-    System.out.println("size of team 1: " + team1.size());
     avACS1 /= team1.size();
     avADR1 /= team1.size();
     avKills1 /= team1.size();
@@ -326,7 +320,6 @@ public class Woo {
       avRounds2 += t.getRoundDifference();
     }
 
-    System.out.println("size of team 2: " + team2.size());
     avACS2 /= team2.size();
     avADR2 /= team2.size();
     avKills2 /= team2.size();
@@ -339,7 +332,7 @@ public class Woo {
     if (team1.size() == 0 || team2.size() == 0) {
       System.out.println(red_back + "This combination does not exist. It is up to you to guess." + reset);
     } else {
-      System.out.println(red_back + "<<<STATS FOR TEAM 1>>>" + reset);
+      System.out.println("\n" + red_back + "<<<STATS FOR TEAM 1>>>" + reset);
       System.out.println("average ACS:" + avACS1 );
       System.out.println("average ADR:" + avADR1 );
       System.out.println("average kills:" + avKills1 );
@@ -347,7 +340,7 @@ public class Woo {
       System.out.println("average KAST:" + avKAST1 );
       System.out.println("average round difference:" + avRounds1 );
 
-      System.out.println(red_back + "<<<STATS FOR TEAM 2>>>" + reset);
+      System.out.println("\n" + red_back + "<<<STATS FOR TEAM 2>>>" + reset);
       System.out.println("average ACS:" + avACS2 );
       System.out.println("average ADR:" + avADR2 );
       System.out.println("average kills:" + avKills2 );
@@ -357,49 +350,51 @@ public class Woo {
 
     }
 
-    System.out.println(yellow + "Choose the victor: " +
-    "\n" + t1Choice + "\n" + t2Choice + "" + reset);
+    System.out.println("\n" + yellow + "Choose the victor: " +
+    "\n1: " + t1Choice + "\n2: " + t2Choice + "" + reset);
 
     while (true) {
       Scanner pick4 = new Scanner(System.in);
       choice4 = pick4.nextLine();
       choice4 = choice4.toLowerCase();
-      if (choice4.equals(t1Choice)) {
-        System.out.println("players in team: " + team1Players);
+      if (choice4.equals("1")) {
         break;
-      } else if (choice4.equals(t2Choice)) {
-          System.out.println("players in team: " + team2Players);
+      } else if (choice4.equals("2")) {
         break;
+      } else {
+
       }
-      break;
     }
 
-    System.out.println(yellow + "Choose the MVP: " +
-    "\n" + "Team 1 Players: " + team1Players + "\n" + "Team 2 Players: " + team2Players + "" + reset);
+    if (choice4.equals("1")) {
+    System.out.println("\n" + yellow + "Choose the MVP: " + "\n" + "Team 1 Players: " + reset);
+    for (int i = 0; i < team1Players.size(); i++) {
+      System.out.println(i + ": " + team1Players.get(i).getName());
+    }
+  } else {
+    System.out.println(yellow + "\n" + "Team 2 Players: " + reset);
+    for (int j = 0; j < team2Players.size(); j++) {
+      System.out.println(j + ": " + team2Players.get(j).getName());
+    }
+  }
 
-    while (true) {
-      Scanner pick5 = new Scanner(System.in);
-      String choice5 = pick5.nextLine();
-      choice5 = choice5.toLowerCase();
-      if (choice4.equals(t1Choice)) {
-        for (int i = 0; i < team1Players.size(); i++) {
-          String name = team1Players.get(i).getName();
-          if (choice5.equals(name)) {
-            break;
-          }
-        }
-      } else if (choice4.equals(t2Choice)) {
-        for (int i = 0; i < team2Players.size(); i++) {
-          String name = team2Players.get(i).getName();
-          if (choice5.equals(name)) {
-            break;
-          }
-        }
-      } //ends if-else
-      break;
-    } //ends while loop
+    // while (true) {
+    //   Scanner pick5 = new Scanner(System.in);
+    //   String choice5 = pick5.nextLine();
+    //   choice5 = choice5.toLowerCase();
+    //   if ()
+    //   for (int k = 0; k < team1Players.size(); k++) {
+    //
+    //   }
+    //   if (name.equals(choice5))
+    //   break;
+    // } //ends while loop
 
-    System.out.println(yellow + "Insert the amount you would like to bet (must be greater than $50,000): " + reset);
+    if (totalMoney <= 0) {
+      System.out.println("\n" + red + "Your life was taken away due to your inability to read stats." + reset);
+      System.exit(0);
+    }
+    System.out.println("\n" + yellow + "Insert the amount you would like to bet (must be greater than $50,000): " + reset);
     System.out.println("Remaining money: " + totalMoney);
     Scanner playerBet = new Scanner(System.in);
     String choice6 = playerBet.next();
@@ -410,6 +405,9 @@ public class Woo {
         break;
       } else {
         System.out.println("That is not a valid amount.");
+        Scanner playerBetr = new Scanner(System.in);
+        String choice6r = playerBet.next();
+        int theBet = Integer.parseInt(choice6r);
       }
     }
 
@@ -499,16 +497,44 @@ public class Woo {
       System.out.println("Remaining money: "+ totalMoney);
     }
 
+    System.out.println("\nLet's see if your guess on the winning team is right...");
     if (choice4.equals(predWinner)) {
+      delay(1000);
       System.out.println(yellow + "Right on!" + reset);
       totalMoney += theBet;
+      delay(1000);
       System.out.println("Remaining money: "+ totalMoney);
     } else {
+      delay(1000);
       System.out.println(red + "Very off..." + reset);
+      delay(1000);
+      System.out.println("Remaining money: "+ totalMoney);
+    }
+
+    System.out.println("\nLet's see if your guess on the MVP is right...");
+    if (choice4.equals(predMVP)) {
+      delay(1000);
+      System.out.println(yellow + "Right on!" + reset);
+      totalMoney += theBet;
+      delay(1000);
+      System.out.println("Remaining money: "+ totalMoney);
+    } else {
+      delay(1000);
+      System.out.println(red + "Very off..." + reset);
+      delay(1000);
       System.out.println("Remaining money: "+ totalMoney);
     }
 
   } //end playGame()
+
+  private static void delay( int n )
+  {
+  try {
+    Thread.sleep(n);
+  } catch( InterruptedException e ) {
+    System.exit(0);
+  }
+  }
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -519,14 +545,16 @@ public class Woo {
 
     for (int i = 0; i < 3; i++) {
       playGame();
+      delay(1000);
     }
 
+    delay(1000);
     if (totalMoney > 0) {
-      System.out.println(yellow + "You successfully escaped! Your debt is non-existent" +
+      System.out.println("\n" + yellow + "You successfully escaped! Your debt is non-existent" +
       " and now you can enjoy your life. :)" + reset);
     } else {
       System.out.println("Remaining money: "+ totalMoney);
-      System.out.println(red + "You didn't escape... Your life was taken away from" +
+      System.out.println("\n" + red + "You didn't escape... Your life was taken away from" +
       " you." + reset);
     }
 
