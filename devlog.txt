@@ -29,8 +29,7 @@ UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 blah blah pesky bug...
 maybe some of these will move into the Obs.Ovrcm section...
-- fix the setTeam() in Match.java
-- delete Match.java?
+- fix GUI
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,7 +40,7 @@ MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 we changed ___ to ___ bc...
 - map class to just a match class since both of them overlapped
-  a lot
+  a lot, then combined team and match class
 - added date and team name to Player.java to better group Players
 - put rounds won and lost in Team.java
 
@@ -156,8 +155,14 @@ Lindsay :: Worked on Woo such to show stats, continued solving discrepancy in Te
 Lea :: Created prediction calculator and edited Team.java and Player.java to match changes in Woo
 ==============================================================
 
-2022-06.09: 1:56 PM
+2022-06-10: 1:56 PM
 --------------------------------------------------------------
 Nina :: Worked on debugging Woo.java, fixed unreachable statement +
 	allowed player to input valid amount of money to bet
+==============================================================
+
+2022-06-10: 1:45AM
+--------------------------------------------------------------
+Lindsay :: Edited Woo to fix bugs, tried creating GUI
+Lea :: Final bug check in Woo, upload final dataset, uml, and flowchart
 ==============================================================
