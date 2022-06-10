@@ -533,6 +533,7 @@ public static final String red_back = "\u001B[41m";
             case "11": t2Choice = c9; chooseMap(); break;
             case "12": t2Choice = sen; chooseMap(); break;
           }
+          break;
         case "map":
           switch(yourChoice) {
             case "1": mapChoice = fra; ch(); break;
@@ -548,6 +549,7 @@ public static final String red_back = "\u001B[41m";
             case "11": break;
             case "12": break;
           }
+          break;
       }
   }
 }
