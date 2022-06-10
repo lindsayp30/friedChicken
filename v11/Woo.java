@@ -304,13 +304,16 @@ public class Woo {
       avKAST1 += t.averageKAST();
       avRounds1 += t.getRoundDifference();
     }
-
-    avACS1 /= team1.size();
-    avADR1 /= team1.size();
-    avKills1 /= team1.size();
-    avDeaths1 /= team1.size();
-    avKAST1 /= team1.size();
-    avRounds1 /= team1.size();
+    
+    if(team1.size() != 0){
+      avACS1 /= team1.size();
+      avADR1 /= team1.size();
+      avKills1 /= team1.size();
+      avDeaths1 /= team1.size();
+      avKAST1 /= team1.size();
+      avRounds1 /= team1.size();
+    }
+    
 
     //collect average statistics for team 2 over all instances of maps
     for(Team t : team2) {
@@ -322,17 +325,21 @@ public class Woo {
       avRounds2 += t.getRoundDifference();
     }
 
-    avACS2 /= team2.size();
-    avADR2 /= team2.size();
-    avKills2 /= team2.size();
-    avDeaths2 /= team2.size();
-    avKAST2 /= team2.size();
-    avRounds2 /= team2.size();
+    if(team2.size() != 0){
+      avACS2 /= team2.size();
+      avADR2 /= team2.size();
+      avKills2 /= team2.size();
+      avDeaths2 /= team2.size();
+      avKAST2 /= team2.size();
+      avRounds2 /= team2.size();
+    }
+    
 
 
     //print statistics for each team
     if (team1.size() == 0 || team2.size() == 0) {
       System.out.println(red_back + "This combination does not exist. It is up to you to guess." + reset);
+      return;
     } else {
       System.out.println("\n" + red_back + "<<<STATS FOR TEAM 1>>>" + reset);
       System.out.println("average ACS:" + avACS1 );
