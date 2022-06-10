@@ -261,7 +261,7 @@ public class Woo {
 
 
     //load data into players
-    DataSource data = DataSource.connect("./VCTmastersv8.csv").load();
+    DataSource data = DataSource.connect("./VCTmastersFINAL.csv").load();
 
     ArrayList<Player> allPlayers  = data.fetchList("Player", "player_name", "team", "map", "kills", "deaths", "acs", "adr", "kast", "date", "rounds_won", "rounds_lost");
 
