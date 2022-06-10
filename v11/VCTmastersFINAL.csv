@@ -1,0 +1,451 @@
+﻿team,player_name,map,kills,deaths,kd_ratio,acs,adr,kast,enemy_team,rounds_won,rounds_lost,date
+The Guard,Sayaplayer,fracture,19,14,1.35714285714286,301,188,50,100 thieves,5,13,5/13/22
+The Guard,trent,fracture,13,14,0.928571428571429,229,140,67,100 thieves,5,13,5/13/22
+The Guard,valyn,fracture,11,14,0.785714285714286,175,109,83,100 thieves,5,13,5/13/22
+The Guard,JonahP,fracture,10,17,0.588235294117647,169,100,67,100 thieves,5,13,5/13/22
+The Guard,neT,fracture,3,15,0.2,62,46,50,100 thieves,5,13,5/13/22
+100 Thieves,Asuna,fracture,20,11,1.81818181818182,327,219,78,the guard,13,5,5/13/22
+100 Thieves,bang,fracture,18,11,1.63636363636364,263,151,78,the guard,13,5,5/13/22
+100 Thieves,Will,fracture,14,11,1.27272727272727,225,131,78,the guard,13,5,5/13/22
+100 Thieves,stellar,fracture,14,11,1.27272727272727,173,107,83,the guard,13,5,5/13/22
+100 Thieves,Derrek,fracture,8,11,0.727272727272727,151,108,78,the guard,13,5,5/13/22
+The Guard,Sayaplayer,bind,19,15,1.26666666666667,262,177,68,100 thieves,6,13,5/13/22
+The Guard,JonahP,bind,11,13,0.846153846153846,213,149,74,100 thieves,6,13,5/13/22
+The Guard,valyn,bind,10,13,0.769230769230769,159,93,68,100 thieves,6,13,5/13/22
+The Guard,trent,bind,10,13,0.769230769230769,154,97,58,100 thieves,6,13,5/13/22
+The Guard,neT,bind,6,17,0.352941176470588,103,79,42,100 thieves,6,13,5/13/22
+100 Thieves,stellar,bind,20,6,3.33333333333333,274,182,95,the guard,13,6,5/13/22
+100 Thieves,Asuna,bind,18,12,1.5,241,148,74,the guard,13,6,5/13/22
+100 Thieves,Will,bind,13,14,0.928571428571429,218,136,63,the guard,13,6,5/13/22
+100 Thieves,bang,bind,11,13,0.846153846153846,174,106,68,the guard,13,6,5/13/22
+100 Thieves,Derrek,bind,9,11,0.818181818181818,126,82,74,the guard,13,6,5/13/22
+XSET,BcJ,haven,22,16,1.375,286,180,75,ghost gaming,13,11,5/14/22
+XSET,dephh,haven,21,17,1.23529411764706,239,145,79,ghost gaming,13,11,5/14/22
+XSET,ARYIN,haven,15,15,1,195,134,71,ghost gaming,13,11,5/14/22
+XSET,Cryocells,haven,15,17,0.882352941176471,147,107,58,ghost gaming,13,11,5/14/22
+XSET,zekken,haven,13,19,0.684210526315789,139,101,79,ghost gaming,13,11,5/14/22
+Ghost Gaming,NiSMO,haven,21,13,1.61538461538462,256,164,79,xset,11,13,5/14/22
+Ghost Gaming,koalanoob,haven,18,18,1,218,139,71,xset,11,13,5/14/22
+Ghost Gaming,johnqt,haven,16,21,0.761904761904762,199,138,71,xset,11,13,5/14/22
+Ghost Gaming,brawk,haven,16,16,1,187,130,63,xset,11,13,5/14/22
+Ghost Gaming,aproto,haven,13,18,0.722222222222222,174,107,83,xset,11,13,5/14/22
+XSET,zekken,fracture,21,13,1.61538461538462,313,212,86,ghost gaming,13,9,5/14/22
+XSET,ARYIN,fracture,15,11,1.36363636363636,201,128,77,ghost gaming,13,9,5/14/22
+XSET,Cryocells,fracture,15,14,1.07142857142857,195,128,68,ghost gaming,13,9,5/14/22
+XSET,dephh,fracture,16,13,1.23076923076923,188,109,77,ghost gaming,13,9,5/14/22
+XSET,BcJ,fracture,12,12,1,170,125,73,ghost gaming,13,9,5/14/22
+Ghost Gaming,koalanoob,fracture,15,15,1,191,119,64,xset,9,13,5/14/22
+Ghost Gaming,NiSMO,fracture,12,17,0.705882352941177,180,110,64,xset,9,13,5/14/22
+Ghost Gaming,johnqt,fracture,13,14,0.928571428571429,169,119,68,xset,9,13,5/14/22
+Ghost Gaming,aproto,fracture,13,17,0.764705882352941,154,108,68,xset,9,13,5/14/22
+Ghost Gaming,brawk,fracture,10,16,0.625,132,82,73,xset,9,13,5/14/22
+NRG,s0m,breeze,27,17,1.58823529411765,268,181,71,tsm,15,13,5/15/22
+NRG,Ethan,breeze,24,20,1.2,264,155,79,tsm,15,13,5/15/22
+NRG,tex,breeze,23,19,1.21052631578947,215,133,75,tsm,15,13,5/15/22
+NRG,eeiu,breeze,19,13,1.46153846153846,199,138,71,tsm,15,13,5/15/22
+NRG,hazed,breeze,8,16,0.5,92,67,64,tsm,15,13,5/15/22
+TSM,gMd,breeze,19,21,0.904761904761905,214,141,79,nrg,13,15,5/15/22
+TSM,Rossy,breeze,18,16,1.125,185,134,61,nrg,13,15,5/15/22
+TSM,seven,breeze,18,22,0.818181818181818,172,106,71,nrg,13,15,5/15/22
+TSM,corey,breeze,16,22,0.727272727272727,170,117,50,nrg,13,15,5/15/22
+TSM,Subroza,breeze,14,20,0.7,146,94,61,nrg,13,15,5/15/22
+NRG,Ethan,ascent,21,13,1.61538461538462,252,166,83,tsm,13,10,5/15/22
+NRG,tex,ascent,21,14,1.5,235,173,65,tsm,13,10,5/15/22
+NRG,s0m,ascent,15,17,0.882352941176471,218,154,70,tsm,13,10,5/15/22
+NRG,hazed,ascent,13,12,1.08333333333333,159,89,78,tsm,13,10,5/15/22
+NRG,eeiu,ascent,13,15,0.866666666666667,153,97,74,tsm,13,10,5/15/22
+TSM,corey,ascent,18,15,1.2,223,150,61,nrg,10,13,5/15/22
+TSM,Rossy,ascent,13,16,0.8125,204,146,74,nrg,10,13,5/15/22
+TSM,seven,ascent,14,18,0.777777777777778,192,122,65,nrg,10,13,5/15/22
+TSM,Subroza,ascent,15,18,0.833333333333333,187,118,61,nrg,10,13,5/15/22
+TSM,gMd,ascent,11,16,0.6875,136,96,65,nrg,10,13,5/15/22
+Ghost Gaming,NiSMO,haven,17,7,2.42857142857143,339,224,100,the guard,13,1,5/20/22
+Ghost Gaming,aproto,haven,18,7,2.57142857142857,338,187,100,the guard,13,1,5/20/22
+Ghost Gaming,koalanoob,haven,16,8,2,284,194,79,the guard,13,1,5/20/22
+Ghost Gaming,johnqt,haven,11,6,1.83333333333333,234,152,93,the guard,13,1,5/20/22
+Ghost Gaming,brawk,haven,5,5,1,121,79,93,the guard,13,1,5/20/22
+The Guard,neT,haven,9,13,0.692307692307692,187,124,64,ghost gaming,1,13,5/20/22
+The Guard,trent,haven,7,14,0.5,160,99,57,ghost gaming,1,13,5/20/22
+The Guard,valyn,haven,7,14,0.5,154,94,43,ghost gaming,1,13,5/20/22
+The Guard,JonahP,haven,6,12,0.5,145,96,43,ghost gaming,1,13,5/20/22
+The Guard,Sayaplayer,haven,4,14,0.285714285714286,106,69,57,ghost gaming,1,13,5/20/22
+Ghost Gaming,NiSMO,ascent,18,19,0.947368421052632,261,162,71,the guard,8,13,5/20/22
+Ghost Gaming,johnqt,ascent,16,15,1.06666666666667,215,130,76,the guard,8,13,5/20/22
+Ghost Gaming,koalanoob,ascent,12,16,0.75,162,113,67,the guard,8,13,5/20/22
+Ghost Gaming,aproto,ascent,12,13,0.923076923076923,148,89,71,the guard,8,13,5/20/22
+Ghost Gaming,brawk,ascent,10,15,0.666666666666667,128,98,71,the guard,8,13,5/20/22
+The Guard,JonahP,ascent,21,17,1.23529411764706,296,180,90,ghost gaming,13,8,5/20/22
+The Guard,valyn,ascent,17,14,1.21428571428571,253,170,86,ghost gaming,13,8,5/20/22
+The Guard,trent,ascent,14,10,1.4,182,118,90,ghost gaming,13,8,5/20/22
+The Guard,Sayaplayer,ascent,14,14,1,181,114,71,ghost gaming,13,8,5/20/22
+The Guard,neT,ascent,12,13,0.923076923076923,174,116,81,ghost gaming,13,8,5/20/22
+Ghost Gaming,koalanoob,fracture,23,14,1.64285714285714,307,179,71,the guard,13,8,5/20/22
+Ghost Gaming,aproto,fracture,19,13,1.46153846153846,250,147,90,the guard,13,8,5/20/22
+Ghost Gaming,NiSMO,fracture,16,16,1,220,137,62,the guard,13,8,5/20/22
+Ghost Gaming,johnqt,fracture,14,10,1.4,174,115,71,the guard,13,8,5/20/22
+Ghost Gaming,brawk,fracture,7,10,0.7,107,76,76,the guard,13,8,5/20/22
+The Guard,Sayaplayer,fracture,17,14,1.21428571428571,244,152,67,ghost gaming,8,13,5/20/22
+The Guard,neT,fracture,16,14,1.14285714285714,207,147,62,ghost gaming,8,13,5/20/22
+The Guard,JonahP,fracture,12,16,0.75,194,133,62,ghost gaming,8,13,5/20/22
+The Guard,trent,fracture,10,18,0.555555555555556,173,111,67,ghost gaming,8,13,5/20/22
+The Guard,valyn,fracture,8,17,0.470588235294118,139,95,71,ghost gaming,8,13,5/20/22
+TSM,Subroza,split,21,19,1.10526315789474,284,172,70,100 thieves,13,10,5/21/22
+TSM,gMd,split,23,14,1.64285714285714,259,170,74,100 thieves,13,10,5/21/22
+TSM,seven,split,16,15,1.06666666666667,212,136,74,100 thieves,13,10,5/21/22
+TSM,corey,split,16,14,1.14285714285714,200,136,78,100 thieves,13,10,5/21/22
+TSM,Rossy,split,8,15,0.533333333333333,100,67,61,100 thieves,13,10,5/21/22
+100 Thieves,stellar,split,22,18,1.22222222222222,284,200,87,tsm,10,13,5/21/22
+100 Thieves,Derrek,split,21,13,1.61538461538462,249,157,87,tsm,10,13,5/21/22
+100 Thieves,Will,split,14,18,0.777777777777778,205,135,65,tsm,10,13,5/21/22
+100 Thieves,bang,split,11,17,0.647058823529412,122,78,70,tsm,10,13,5/21/22
+100 Thieves,Asuna,split,9,18,0.5,115,82,65,tsm,10,13,5/21/22
+TSM,corey,haven,24,6,4,321,189,89,100 thieves,13,6,5/21/22
+TSM,seven,haven,15,13,1.15384615384615,244,158,79,100 thieves,13,6,5/21/22
+TSM,Rossy,haven,17,12,1.41666666666667,240,156,89,100 thieves,13,6,5/21/22
+TSM,gMd,haven,16,12,1.33333333333333,225,159,74,100 thieves,13,6,5/21/22
+TSM,Subroza,haven,12,11,1.09090909090909,178,127,84,100 thieves,13,6,5/21/22
+100 Thieves,Derrek,haven,17,14,1.21428571428571,231,136,74,tsm,6,13,5/21/22
+100 Thieves,bang,haven,13,16,0.8125,210,136,58,tsm,6,13,5/21/22
+100 Thieves,Will,haven,10,19,0.526315789473684,174,107,63,tsm,6,13,5/21/22
+100 Thieves,Asuna,haven,8,18,0.444444444444444,145,91,58,tsm,6,13,5/21/22
+100 Thieves,stellar,haven,6,17,0.352941176470588,105,81,37,tsm,6,13,5/21/22
+XSET,dephh,bind,20,14,1.42857142857143,267,178,81,nrg,13,8,5/22/22
+XSET,ARYIN,bind,17,12,1.41666666666667,215,128,71,nrg,13,8,5/22/22
+XSET,zekken,bind,14,16,0.875,200,130,57,nrg,13,8,5/22/22
+XSET,Cryocells,bind,14,13,1.07692307692308,188,124,71,nrg,13,8,5/22/22
+XSET,BcJ,bind,9,11,0.818181818181818,131,102,76,nrg,13,8,5/22/22
+NRG,s0m,bind,17,17,1,240,152,81,xset,8,13,5/22/22
+NRG,eeiu,bind,16,14,1.14285714285714,218,130,67,xset,8,13,5/22/22
+NRG,hazed,bind,12,15,0.8,171,112,71,xset,8,13,5/22/22
+NRG,Ethan,bind,10,13,0.769230769230769,136,90,71,xset,8,13,5/22/22
+NRG,tex,bind,11,15,0.733333333333333,135,94,57,xset,8,13,5/22/22
+XSET,zekken,split,21,16,1.3125,274,167,77,nrg,13,9,5/22/22
+XSET,Cryocells,split,21,16,1.3125,257,173,73,nrg,13,9,5/22/22
+XSET,BcJ,split,18,9,2,206,146,73,nrg,13,9,5/22/22
+XSET,ARYIN,split,11,16,0.6875,175,120,91,nrg,13,9,5/22/22
+XSET,dephh,split,12,18,0.666666666666667,158,120,59,nrg,13,9,5/22/22
+NRG,eeiu,split,19,15,1.26666666666667,231,140,82,xset,9,13,5/22/22
+NRG,Ethan,split,17,18,0.944444444444444,230,132,91,xset,9,13,5/22/22
+NRG,s0m,split,14,17,0.823529411764706,193,125,55,xset,9,13,5/22/22
+NRG,tex,split,13,16,0.8125,183,126,59,xset,9,13,5/22/22
+NRG,hazed,split,12,17,0.705882352941177,158,98,59,xset,9,13,5/22/22
+The Guard,Sayaplayer,haven,29,15,1.93333333333333,339,211,83,tsm,13,10,5/27/22
+The Guard,JonahP,haven,20,16,1.25,258,174,74,tsm,13,10,5/27/22
+The Guard,neT,haven,19,10,1.9,237,155,65,tsm,13,10,5/27/22
+The Guard,trent,haven,13,12,1.08333333333333,147,100,87,tsm,13,10,5/27/22
+The Guard,valyn,haven,8,16,0.5,116,81,70,tsm,13,10,5/27/22
+TSM,gMd,haven,19,19,1,236,154,65,the guard,10,13,5/27/22
+TSM,Subroza,haven,17,18,0.944444444444444,227,141,70,the guard,10,13,5/27/22
+TSM,seven,haven,15,19,0.789473684210526,177,119,57,the guard,10,13,5/27/22
+TSM,corey,haven,10,17,0.588235294117647,145,91,57,the guard,10,13,5/27/22
+TSM,Rossy,haven,8,16,0.5,107,69,52,the guard,10,13,5/27/22
+The Guard,trent,icebox,18,12,1.5,262,181,90,tsm,13,7,5/27/22
+The Guard,valyn,icebox,21,16,1.3125,257,153,85,tsm,13,7,5/27/22
+The Guard,Sayaplayer,icebox,18,14,1.28571428571429,254,151,80,tsm,13,7,5/27/22
+The Guard,JonahP,icebox,15,11,1.36363636363636,207,136,85,tsm,13,7,5/27/22
+The Guard,neT,icebox,14,12,1.16666666666667,205,137,90,tsm,13,7,5/27/22
+TSM,corey,icebox,17,15,1.13333333333333,239,153,65,the guard,7,13,5/27/22
+TSM,gMd,icebox,16,20,0.8,231,149,65,the guard,7,13,5/27/22
+TSM,Rossy,icebox,15,17,0.882352941176471,210,152,60,the guard,7,13,5/27/22
+TSM,seven,icebox,9,18,0.5,182,122,65,the guard,7,13,5/27/22
+TSM,Subroza,icebox,8,16,0.5,130,98,55,the guard,7,13,5/27/22
+100 Thieves,Will,breeze,24,9,2.66666666666667,358,231,76,xset,13,4,5/28/22
+100 Thieves,Asuna,breeze,15,9,1.66666666666667,262,178,76,xset,13,4,5/28/22
+100 Thieves,stellar,breeze,12,7,1.71428571428571,193,123,100,xset,13,4,5/28/22
+100 Thieves,bang,breeze,11,9,1.22222222222222,174,118,88,xset,13,4,5/28/22
+100 Thieves,Derrek,breeze,11,11,1,174,114,88,xset,13,4,5/28/22
+XSET,ARYIN,breeze,11,15,0.733333333333333,205,146,65,100 thieves,4,13,5/28/22
+XSET,dephh,breeze,9,15,0.6,185,119,53,100 thieves,4,13,5/28/22
+XSET,BcJ,breeze,10,14,0.714285714285714,173,130,47,100 thieves,4,13,5/28/22
+XSET,zekken,breeze,11,13,0.846153846153846,169,106,53,100 thieves,4,13,5/28/22
+XSET,Cryocells,breeze,4,16,0.25,76,57,53,100 thieves,4,13,5/28/22
+100 Thieves,bang,bind,26,14,1.85714285714286,326,206,82,xset,13,9,5/28/22
+100 Thieves,Will,bind,18,15,1.2,261,176,86,xset,13,9,5/28/22
+100 Thieves,Asuna,bind,17,15,1.13333333333333,210,132,86,xset,13,9,5/28/22
+100 Thieves,stellar,bind,11,14,0.785714285714286,151,100,73,xset,13,9,5/28/22
+100 Thieves,Derrek,bind,8,17,0.470588235294118,115,72,73,xset,13,9,5/28/22
+XSET,Cryocells,bind,26,15,1.73333333333333,322,205,77,100 thieves,9,13,5/28/22
+XSET,dephh,bind,17,16,1.0625,225,162,77,100 thieves,9,13,5/28/22
+XSET,zekken,bind,12,17,0.705882352941177,192,127,73,100 thieves,9,13,5/28/22
+XSET,ARYIN,bind,13,19,0.684210526315789,162,96,73,100 thieves,9,13,5/28/22
+XSET,BcJ,bind,7,13,0.538461538461538,122,92,73,100 thieves,9,13,5/28/22
+Ghost Gaming,NiSMO,haven,23,11,2.09090909090909,347,206,95,nrg,13,6,5/29/22
+Ghost Gaming,aproto,haven,14,10,1.4,217,138,84,nrg,13,6,5/29/22
+Ghost Gaming,koalanoob,haven,16,12,1.33333333333333,214,137,63,nrg,13,6,5/29/22
+Ghost Gaming,johnqt,haven,11,12,0.916666666666667,145,93,68,nrg,13,6,5/29/22
+Ghost Gaming,brawk,haven,9,10,0.9,135,80,84,nrg,13,6,5/29/22
+NRG,hazed,haven,18,14,1.28571428571429,282,177,68,ghost gaming,6,13,5/29/22
+NRG,eeiu,haven,15,14,1.07142857142857,215,118,84,ghost gaming,6,13,5/29/22
+NRG,Ethan,haven,10,14,0.714285714285714,171,127,63,ghost gaming,6,13,5/29/22
+NRG,tex,haven,7,15,0.466666666666667,116,78,58,ghost gaming,6,13,5/29/22
+NRG,s0m,haven,5,16,0.3125,75,61,32,ghost gaming,6,13,5/29/22
+Ghost Gaming,NiSMO,breeze,27,10,2.7,294,287,83,nrg,13,5,5/29/22
+Ghost Gaming,johnqt,breeze,14,11,1.27272727272727,227,142,72,nrg,13,5,5/29/22
+Ghost Gaming,brawk,breeze,11,7,1.57142857142857,154,104,67,nrg,13,5,5/29/22
+Ghost Gaming,aproto,breeze,9,8,1.125,142,89,89,nrg,13,5,5/29/22
+Ghost Gaming,koalanoob,breeze,9,12,0.75,134,99,56,nrg,13,5,5/29/22
+NRG,hazed,breeze,12,14,0.857142857142857,196,113,67,ghost gaming,5,13,5/29/22
+NRG,Ethan,breeze,11,16,0.6875,186,122,61,ghost gaming,5,13,5/29/22
+NRG,tex,breeze,11,13,0.846153846153846,163,112,50,ghost gaming,5,13,5/29/22
+NRG,s0m,breeze,8,14,0.571428571428571,131,99,61,ghost gaming,5,13,5/29/22
+NRG,eeiu,breeze,6,13,0.461538461538462,128,89,72,ghost gaming,5,13,5/29/22
+Luminosity,bdog,bind,28,19,1.47368421052632,329,197,75,sentinels,13,11,5/13/22
+Luminosity,mada,bind,20,19,1.05263157894737,248,157,63,sentinels,13,11,5/13/22
+Luminosity,dazzLe,bind,15,17,0.882352941176471,202,150,71,sentinels,13,11,5/13/22
+Luminosity,TiGG,bind,9,16,0.5625,125,90,54,sentinels,13,11,5/13/22
+Luminosity,moose,bind,10,11,0.909090909090909,108,77,71,sentinels,13,11,5/13/22
+Sentinels,TenZ,bind,26,17,1.52941176470588,312,184,67,luminosity,11,13,5/13/22
+Sentinels,Kanpeki,bind,16,13,1.23076923076923,193,143,79,luminosity,11,13,5/13/22
+Sentinels,dapr,bind,14,16,0.875,181,125,71,luminosity,11,13,5/13/22
+Sentinels,SicK,bind,15,19,0.789473684210526,167,105,50,luminosity,11,13,5/13/22
+Sentinels,ShahZaM,bind,11,17,0.647058823529412,124,85,63,luminosity,11,13,5/13/22
+Luminosity,bdog,breeze,31,20,1.55,285,174,80,sentinels,14,16,5/13/22
+Luminosity,moose,breeze,23,19,1.21052631578947,213,136,77,sentinels,14,16,5/13/22
+Luminosity,dazzLe,breeze,14,18,0.777777777777778,163,115,73,sentinels,14,16,5/13/22
+Luminosity,mada,breeze,17,23,0.739130434782609,153,96,63,sentinels,14,16,5/13/22
+Luminosity,TiGG,breeze,14,23,0.608695652173913,153,104,67,sentinels,14,16,5/13/22
+Sentinels,TenZ,breeze,40,21,1.9047619047619,384,223,63,luminosity,16,14,5/13/22
+Sentinels,Kanpeki,breeze,17,20,0.85,186,125,67,luminosity,16,14,5/13/22
+Sentinels,SicK,breeze,20,18,1.11111111111111,180,117,67,luminosity,16,14,5/13/22
+Sentinels,dapr,breeze,13,21,0.619047619047619,136,90,50,luminosity,16,14,5/13/22
+Sentinels,ShahZaM,breeze,13,19,0.684210526315789,125,91,60,luminosity,16,14,5/13/22
+Luminosity,moose,fracture,22,11,2,364,242,88,sentinels,13,4,5/13/22
+Luminosity,bdog,fracture,23,10,2.3,341,212,94,sentinels,13,4,5/13/22
+Luminosity,mada,fracture,12,10,1.2,189,122,76,sentinels,13,4,5/13/22
+Luminosity,TiGG,fracture,9,11,0.818181818181818,162,104,76,sentinels,13,4,5/13/22
+Luminosity,dazzLe,fracture,7,12,0.583333333333333,116,78,76,sentinels,13,4,5/13/22
+Sentinels,Kanpeki,fracture,16,14,1.14285714285714,268,180,88,luminosity,4,13,5/13/22
+Sentinels,dapr,fracture,13,13,1,231,136,59,luminosity,4,13,5/13/22
+Sentinels,SicK,fracture,10,15,0.666666666666667,158,94,65,luminosity,4,13,5/13/22
+Sentinels,TenZ,fracture,9,15,0.6,152,107,53,luminosity,4,13,5/13/22
+Sentinels,ShahZaM,fracture,6,16,0.375,131,96,53,luminosity,4,13,5/13/22
+FaZe,BABYBAY,fracture,16,21,0.761904761904762,228,169,67,luminosity,11,13,5/20/22
+FaZe,supamen,fracture,16,15,1.06666666666667,204,138,83,luminosity,11,13,5/20/22
+FaZe,flyuh,fracture,18,13,1.38461538461538,204,134,75,luminosity,11,13,5/20/22
+FaZe,dicey,fracture,16,15,1.06666666666667,186,119,67,luminosity,11,13,5/20/22
+FaZe,POISED,fracture,12,13,0.923076923076923,132,93,67,luminosity,11,13,5/20/22
+Luminosity,bdog,fracture,20,15,1.33333333333333,223,135,79,faze,13,11,5/20/22
+Luminosity,TiGG,fracture,17,16,1.0625,219,151,75,faze,13,11,5/20/22
+Luminosity,dazzLe,fracture,15,15,1,167,113,63,faze,13,11,5/20/22
+Luminosity,mada,fracture,10,19,0.526315789473684,157,125,75,faze,13,11,5/20/22
+Luminosity,moose,fracture,15,31,0.483870967741935,155,99,79,faze,13,11,5/20/22
+FaZe,BABYBAY,icebox,22,20,1.1,257,163,69,luminosity,12,14,5/20/22
+FaZe,dicey,icebox,21,18,1.16666666666667,215,154,73,luminosity,12,14,5/20/22
+FaZe,supamen,icebox,17,17,1,208,150,69,luminosity,12,14,5/20/22
+FaZe,flyuh,icebox,16,19,0.842105263157895,180,122,65,luminosity,12,14,5/20/22
+FaZe,POISED,icebox,14,17,0.823529411764706,171,106,65,luminosity,12,14,5/20/22
+Luminosity,mada,icebox,29,18,1.61111111111111,306,200,65,faze,14,12,5/20/22
+Luminosity,TiGG,icebox,17,19,0.894736842105263,197,132,69,faze,14,12,5/20/22
+Luminosity,bdog,icebox,20,15,1.33333333333333,192,121,65,faze,14,12,5/20/22
+Luminosity,dazzLe,icebox,12,20,0.6,159,106,73,faze,14,12,5/20/22
+Luminosity,moose,icebox,13,18,0.722222222222222,154,94,73,faze,14,12,5/20/22
+Evil Geniuses,C0M,ascent,23,15,1.53333333333333,273,177,71,sentinels,13,11,5/21/22
+Evil Geniuses,Boostio,ascent,20,15,1.33333333333333,240,164,71,sentinels,13,11,5/21/22
+Evil Geniuses,jawgemo,ascent,16,15,1.06666666666667,198,127,71,sentinels,13,11,5/21/22
+Evil Geniuses,Reformed,ascent,14,17,0.823529411764706,180,118,75,sentinels,13,11,5/21/22
+Evil Geniuses,Apoth,ascent,14,16,0.875,161,103,67,sentinels,13,11,5/21/22
+Sentinels,dapr,ascent,18,17,1.05882352941176,222,145,67,evil geniuses,11,13,5/21/22
+Sentinels,SicK,ascent,21,15,1.4,219,136,63,evil geniuses,11,13,5/21/22
+Sentinels,Kanpeki,ascent,13,18,0.722222222222222,186,130,71,evil geniuses,11,13,5/21/22
+Sentinels,ShahZaM,ascent,13,16,0.8125,186,149,71,evil geniuses,11,13,5/21/22
+Sentinels,TenZ,ascent,13,21,0.619047619047619,159,103,67,evil geniuses,11,13,5/21/22
+Evil Geniuses,jawgemo,icebox,27,15,1.8,312,195,78,sentinels,13,10,5/21/22
+Evil Geniuses,Apoth,icebox,20,16,1.25,231,146,83,sentinels,13,10,5/21/22
+Evil Geniuses,Boostio,icebox,19,15,1.26666666666667,231,135,74,sentinels,13,10,5/21/22
+Evil Geniuses,C0M,icebox,16,11,1.45454545454545,199,144,74,sentinels,13,10,5/21/22
+Evil Geniuses,Reformed,icebox,10,18,0.555555555555556,143,88,74,sentinels,13,10,5/21/22
+Sentinels,TenZ,icebox,17,20,0.85,227,151,78,evil geniuses,10,13,5/21/22
+Sentinels,SicK,icebox,18,17,1.05882352941176,225,147,74,evil geniuses,10,13,5/21/22
+Sentinels,ShahZaM,icebox,18,16,1.125,219,152,70,evil geniuses,10,13,5/21/22
+Sentinels,Kanpeki,icebox,11,21,0.523809523809524,149,88,43,evil geniuses,10,13,5/21/22
+Sentinels,dapr,icebox,11,18,0.611111111111111,146,108,61,evil geniuses,10,13,5/21/22
+OpTic,yay,icebox,15,15,1,262,163,59,cloud9,4,13,5/22/22
+OpTic,FNS,icebox,11,15,0.733333333333333,206,135,71,cloud9,4,13,5/22/22
+OpTic,Marved,icebox,11,13,0.846153846153846,183,120,82,cloud9,4,13,5/22/22
+OpTic,Victor,icebox,8,15,0.533333333333333,181,112,59,cloud9,4,13,5/22/22
+OpTic,crashies,icebox,9,14,0.642857142857143,143,81,65,cloud9,4,13,5/22/22
+Cloud9,Xeppaa,icebox,22,9,2.44444444444444,310,180,100,optic,13,4,5/22/22
+Cloud9,leaf,icebox,14,10,1.4,264,172,76,optic,13,4,5/22/22
+Cloud9,curry,icebox,16,9,1.77777777777778,256,159,82,optic,13,4,5/22/22
+Cloud9,vanity,icebox,11,14,0.785714285714286,197,123,71,optic,13,4,5/22/22
+Cloud9,mitch,icebox,9,12,0.75,166,113,82,optic,13,4,5/22/22
+OpTic,FNS,ascent,17,10,1.7,256,157,83,cloud9,13,5,5/22/22
+OpTic,yay,ascent,19,10,1.9,247,160,78,cloud9,13,5,5/22/22
+OpTic,Victor,ascent,16,11,1.45454545454545,246,167,78,cloud9,13,5,5/22/22
+OpTic,Marved,ascent,14,10,1.4,208,136,78,cloud9,13,5,5/22/22
+OpTic,crashies,ascent,9,10,0.9,148,100,83,cloud9,13,5,5/22/22
+Cloud9,leaf,ascent,15,16,0.9375,246,165,61,optic,5,13,5/22/22
+Cloud9,mitch,ascent,12,12,1,192,127,61,optic,5,13,5/22/22
+Cloud9,curry,ascent,10,16,0.625,143,80,72,optic,5,13,5/22/22
+Cloud9,Xeppaa,ascent,9,16,0.5625,139,72,56,optic,5,13,5/22/22
+Cloud9,vanity,ascent,5,15,0.333333333333333,133,105,78,optic,5,13,5/22/22
+OpTic,yay,haven,23,14,1.64285714285714,270,172,83,cloud9,13,10,5/22/22
+OpTic,Victor,haven,18,15,1.2,247,177,78,cloud9,13,10,5/22/22
+OpTic,Marved,haven,20,14,1.42857142857143,242,171,91,cloud9,13,10,5/22/22
+OpTic,crashies,haven,14,14,1,172,99,78,cloud9,13,10,5/22/22
+OpTic,fns,haven,9,17,0.529411764705882,105,72,74,cloud9,13,10,5/22/22
+Cloud9,Xeppaa,haven,22,17,1.29411764705882,266,166,74,optic,10,13,5/22/22
+Cloud9,mitch,haven,23,14,1.64285714285714,245,155,83,optic,10,13,5/22/22
+Cloud9,curry,haven,10,17,0.588235294117647,141,92,70,optic,10,13,5/22/22
+Cloud9,vanity,haven,10,18,0.555555555555556,130,82,61,optic,10,13,5/22/22
+Cloud9,leaf,haven,9,18,0.5,127,80,61,optic,10,13,5/22/22
+Luminosity,moose,icebox,22,13,1.69230769230769,276,177,85,evil geniuses,7,13,5/27/22
+Luminosity,mada,icebox,17,16,1.0625,255,151,70,evil geniuses,7,13,5/27/22
+Luminosity,bdog,icebox,16,18,0.888888888888889,232,144,60,evil geniuses,7,13,5/27/22
+Luminosity,dazzLe,icebox,10,12,0.833333333333333,175,121,75,evil geniuses,7,13,5/27/22
+Luminosity,TiGG,icebox,5,18,0.277777777777778,97,70,50,evil geniuses,7,13,5/27/22
+Evil Geniuses,jawgemo,icebox,26,15,1.73333333333333,388,249,90,luminosity,13,7,5/27/22
+Evil Geniuses,Apoth,icebox,15,15,1,209,152,60,luminosity,13,7,5/27/22
+Evil Geniuses,Boostio,icebox,15,16,0.9375,199,126,55,luminosity,13,7,5/27/22
+Evil Geniuses,C0M,icebox,15,13,1.15384615384615,196,114,80,luminosity,13,7,5/27/22
+Evil Geniuses,Reformed,icebox,6,11,0.545454545454545,112,84,65,luminosity,13,7,5/27/22
+Luminosity,bdog,bind,12,15,0.8,241,147,60,evil geniuses,2,13,5/27/22
+Luminosity,dazzLe,bind,9,13,0.692307692307692,183,114,60,evil geniuses,2,13,5/27/22
+Luminosity,TiGG,bind,6,15,0.4,151,95,80,evil geniuses,2,13,5/27/22
+Luminosity,mada,bind,7,14,0.5,147,105,67,evil geniuses,2,13,5/27/22
+Luminosity,moose,bind,6,14,0.428571428571429,138,88,47,evil geniuses,2,13,5/27/22
+Evil Geniuses,jawgemo,bind,21,10,2.1,383,245,87,luminosity,13,2,5/27/22
+Evil Geniuses,Boostio,bind,14,7,2,272,169,80,luminosity,13,2,5/27/22
+Evil Geniuses,Reformed,bind,13,8,1.625,232,139,93,luminosity,13,2,5/27/22
+Evil Geniuses,Apoth,bind,14,8,1.75,217,126,93,luminosity,13,2,5/27/22
+Evil Geniuses,C0M,bind,9,7,1.28571428571429,172,98,93,luminosity,13,2,5/27/22
+FaZe,BABYBAY,fracture,19,10,1.9,314,191,78,cloud9,13,5,5/29/22
+FaZe,flyuh,fracture,17,10,1.7,267,170,78,cloud9,13,5,5/29/22
+FaZe,dicey,fracture,17,9,1.88888888888889,242,161,89,cloud9,13,5,5/29/22
+FaZe,POISED,fracture,12,9,1.33333333333333,189,116,83,cloud9,13,5,5/29/22
+FaZe,supamen,fracture,10,12,0.833333333333333,168,107,72,cloud9,13,5,5/29/22
+Cloud9,leaf,fracture,16,15,1.06666666666667,268,195,56,faze,5,13,5/29/22
+Cloud9,curry,fracture,11,15,0.733333333333333,172,108,56,faze,5,13,5/29/22
+Cloud9,mitch,fracture,9,16,0.5625,160,104,50,faze,5,13,5/29/22
+Cloud9,Xeppaa,fracture,9,15,0.6,157,102,56,faze,5,13,5/29/22
+Cloud9,vanity,fracture,5,14,0.357142857142857,106,62,61,faze,5,13,5/29/22
+FaZe,dicey,haven,20,12,1.66666666666667,262,158,76,cloud9,13,8,5/29/22
+FaZe,BABYBAY,haven,18,17,1.05882352941176,246,145,67,cloud9,13,8,5/29/22
+FaZe,supamen,haven,13,9,1.44444444444444,175,109,71,cloud9,13,8,5/29/22
+FaZe,flyuh,haven,12,12,1,171,113,81,cloud9,13,8,5/29/22
+FaZe,POISED,haven,13,13,1,170,115,76,cloud9,13,8,5/29/22
+Cloud9,Xeppaa,haven,17,16,1.0625,252,172,62,faze,8,13,5/29/22
+Cloud9,vanity,haven,16,16,1,223,134,62,faze,8,13,5/29/22
+Cloud9,mitch,haven,12,16,0.75,186,131,71,faze,8,13,5/29/22
+Cloud9,leaf,haven,9,13,0.692307692307692,142,95,71,faze,8,13,5/29/22
+Cloud9,curry,haven,9,15,0.6,136,86,57,faze,8,13,5/29/22
+Evil Geniuses,jawgemo,bind,23,15,1.53333333333333,341,215,76,optic,13,8,6/3/22
+Evil Geniuses,Boostio,bind,21,12,1.75,272,169,81,optic,13,8,6/3/22
+Evil Geniuses,Reformed,bind,12,10,1.2,161,116,71,optic,13,8,6/3/22
+Evil Geniuses,C0M,bind,10,11,0.909090909090909,149,88,67,optic,13,8,6/3/22
+Evil Geniuses,Apoth,bind,12,11,1.09090909090909,145,78,67,optic,13,8,6/3/22
+OpTic,yay,bind,14,15,0.933333333333333,200,135,48,evil geniuses,8,13,6/3/22
+OpTic,Victor,bind,11,17,0.647058823529412,182,137,71,evil geniuses,8,13,6/3/22
+OpTic,FNS,bind,11,15,0.733333333333333,177,115,52,evil geniuses,8,13,6/3/22
+OpTic,Marved,bind,14,15,0.933333333333333,171,113,71,evil geniuses,8,13,6/3/22
+OpTic,crashies,bind,9,16,0.5625,124,82,62,evil geniuses,8,13,6/3/22
+Evil Geniuses,C0M,split,20,17,1.17647058823529,236,161,67,optic,11,13,6/3/22
+Evil Geniuses,Apoth,split,18,17,1.05882352941176,212,141,88,optic,11,13,6/3/22
+Evil Geniuses,Reformed,split,18,17,1.05882352941176,200,121,75,optic,11,13,6/3/22
+Evil Geniuses,jawgemo,split,13,16,0.8125,189,135,79,optic,11,13,6/3/22
+Evil Geniuses,Boostio,split,17,18,0.944444444444444,166,104,67,optic,11,13,6/3/22
+OpTic,Marved,split,23,16,1.4375,259,176,79,evil geniuses,13,11,6/3/22
+OpTic,fns,split,17,19,0.894736842105263,203,144,63,evil geniuses,13,11,6/3/22
+OpTic,yay,split,15,19,0.789473684210526,193,124,67,evil geniuses,13,11,6/3/22
+OpTic,Victor,split,15,17,0.882352941176471,192,153,67,evil geniuses,13,11,6/3/22
+OpTic,crashies,split,15,15,1,185,145,71,evil geniuses,13,11,6/3/22
+Evil Geniuses,Apoth,ascent,19,19,1,227,137,71,optic,13,11,6/3/22
+Evil Geniuses,Boostio,ascent,22,15,1.46666666666667,219,137,67,optic,13,11,6/3/22
+Evil Geniuses,C0M,ascent,14,15,0.933333333333333,195,140,71,optic,13,11,6/3/22
+Evil Geniuses,jawgemo,ascent,16,17,0.941176470588235,194,122,79,optic,13,11,6/3/22
+Evil Geniuses,Reformed,ascent,11,19,0.578947368421053,142,94,79,optic,13,11,6/3/22
+OpTic,Marved,ascent,26,16,1.625,287,176,63,evil geniuses,11,13,6/3/22
+OpTic,yay,ascent,19,16,1.1875,231,145,63,evil geniuses,11,13,6/3/22
+OpTic,FNS,ascent,12,19,0.631578947368421,176,117,75,evil geniuses,11,13,6/3/22
+OpTic,crashies,ascent,14,14,1,160,107,79,evil geniuses,11,13,6/3/22
+OpTic,Victor,ascent,14,17,0.823529411764706,147,96,58,evil geniuses,11,13,6/3/22
+Cloud9,leaf,fracture,23,19,1.21052631578947,245,159,67,luminosity,11,13,6/5/22
+Cloud9,curry,fracture,17,17,1,208,141,67,luminosity,11,13,6/5/22
+Cloud9,mitch,fracture,16,18,0.888888888888889,204,132,71,luminosity,11,13,6/5/22
+Cloud9,vanity,fracture,13,20,0.65,184,121,71,luminosity,11,13,6/5/22
+Cloud9,Xeppaa,fracture,8,21,0.380952380952381,111,77,54,luminosity,11,13,6/5/22
+Luminosity,dazzLe,fracture,24,12,2,260,171,79,cloud9,13,11,6/5/22
+Luminosity,moose,fracture,21,16,1.3125,251,163,79,cloud9,13,11,6/5/22
+Luminosity,mada,fracture,20,16,1.25,231,132,71,cloud9,13,11,6/5/22
+Luminosity,bdog,fracture,18,17,1.05882352941176,226,146,79,cloud9,13,11,6/5/22
+Luminosity,TiGG,fracture,12,16,0.75,135,84,83,cloud9,13,11,6/5/22
+Cloud9,vanity,icebox,20,18,1.11111111111111,256,155,73,luminosity,9,13,6/5/22
+Cloud9,leaf,icebox,15,18,0.833333333333333,222,140,73,luminosity,9,13,6/5/22
+Cloud9,Xeppaa,icebox,15,15,1,192,139,64,luminosity,9,13,6/5/22
+Cloud9,mitch,icebox,11,16,0.6875,160,95,91,luminosity,9,13,6/5/22
+Cloud9,curry,icebox,9,17,0.529411764705882,139,96,64,luminosity,9,13,6/5/22
+Luminosity,TiGG,icebox,24,11,2.18181818181818,297,194,91,cloud9,13,9,6/5/22
+Luminosity,bdog,icebox,21,12,1.75,211,125,77,cloud9,13,9,6/5/22
+Luminosity,mada,icebox,14,19,0.736842105263158,207,157,77,cloud9,13,9,6/5/22
+Luminosity,moose,icebox,13,14,0.928571428571429,196,143,82,cloud9,13,9,6/5/22
+Luminosity,dazzLe,icebox,12,15,0.8,167,107,68,cloud9,13,9,6/5/22
+The Guard,valyn,split,22,18,1.22222222222222,234,145,85,xset,14,12,6/3/22
+The Guard,trent,split,20,17,1.17647058823529,214,157,58,xset,14,12,6/3/22
+The Guard,neT,split,18,17,1.05882352941176,199,135,73,xset,14,12,6/3/22
+The Guard,JonahP,split,17,16,1.0625,198,130,65,xset,14,12,6/3/22
+The Guard,Sayaplayer,split,10,20,0.5,126,84,58,xset,14,12,6/3/22
+XSET,dephh,split,20,18,1.11111111111111,234,147,62,the guard,12,14,6/3/22
+XSET,Cryocells,split,21,19,1.10526315789474,228,135,81,the guard,12,14,6/3/22
+XSET,zekken,split,18,18,1,189,123,62,the guard,12,14,6/3/22
+XSET,BcJ,split,16,15,1.06666666666667,175,122,73,the guard,12,14,6/3/22
+XSET,ARYIN,split,13,17,0.764705882352941,147,94,73,the guard,12,14,6/3/22
+The Guard,valyn,icebox,14,16,0.875,230,144,74,xset,6,12,6/3/22
+The Guard,trent,icebox,14,15,0.933333333333333,212,131,68,xset,6,12,6/3/22
+The Guard,neT,icebox,13,17,0.764705882352941,190,130,58,xset,6,12,6/3/22
+The Guard,JonahP,icebox,10,15,0.666666666666667,156,91,63,xset,6,12,6/3/22
+The Guard,Sayaplayer,icebox,9,16,0.5625,127,89,53,xset,6,12,6/3/22
+XSET,Cryocells,icebox,25,9,2.77777777777778,332,203,84,the guard,12,6,6/3/22
+XSET,BcJ,icebox,16,12,1.33333333333333,260,179,74,the guard,12,6,6/3/22
+XSET,zekken,icebox,13,15,0.866666666666667,231,167,74,the guard,12,6,6/3/22
+XSET,dephh,icebox,14,14,1,207,135,79,the guard,12,6,6/3/22
+XSET,ARYIN,icebox,11,10,1.1,154,77,68,the guard,12,6,6/3/22
+The Guard,valyn,haven,21,19,1.10526315789474,269,160,63,xset,11,13,6/3/22
+The Guard,JonahP,haven,20,17,1.17647058823529,210,126,79,xset,11,13,6/3/22
+The Guard,Sayaplayer,haven,15,17,0.882352941176471,196,119,79,xset,11,13,6/3/22
+The Guard,neT,haven,15,19,0.789473684210526,180,120,54,xset,11,13,6/3/22
+The Guard,trent,haven,12,16,0.75,156,108,54,xset,11,13,6/3/22
+XSET,zekken,haven,22,17,1.29411764705882,268,175,75,the guard,13,11,6/3/22
+XSET,BcJ,haven,17,16,1.0625,215,142,75,the guard,13,11,6/3/22
+XSET,ARYIN,haven,16,18,0.888888888888889,190,123,75,the guard,13,11,6/3/22
+XSET,Cryocells,haven,16,16,1,187,113,67,the guard,13,11,6/3/22
+XSET,dephh,haven,17,16,1.0625,177,103,75,the guard,13,11,6/3/22
+TSM,Subroza,breeze,18,16,,222,145,55,ghost gaming,9,13,6/4/22
+TSM,corey,breeze,18,16,,213,150,82,ghost gaming,9,13,6/4/22
+TSM,gMd,breeze,15,14,,198,140,73,ghost gaming,9,13,6/4/22
+TSM,seven,breeze,13,16,,176,114,77,ghost gaming,9,13,6/4/22
+TSM,Rossy,breeze,9,15,,134,79,69,ghost gaming,9,13,6/4/22
+Ghost Gaming,johnqt,breeze,23,12,,290,190,86,tsm,13,9,6/4/22
+Ghost Gaming,koalanoob,breeze,15,16,,195,124,77,tsm,13,9,6/4/22
+Ghost Gaming,brawk,breeze,13,17,,179,125,82,tsm,13,9,6/4/22
+Ghost Gaming,aproto,breeze,15,12,,163,97,73,tsm,13,9,6/4/22
+Ghost Gaming,NiSMO,breeze,11,16,,158,101,73,tsm,13,9,6/4/22
+TSM,gMd,split,26,16,,241,158,82,ghost gaming,13,15,6/4/22
+TSM,Subroza,split,24,19,,240,152,61,ghost gaming,13,15,6/4/22
+TSM,seven,split,17,22,,190,130,71,ghost gaming,13,15,6/4/22
+TSM,corey,split,19,18,,180,119,68,ghost gaming,13,15,6/4/22
+TSM,Rossy,split,12,20,,134,97,75,ghost gaming,13,15,6/4/22
+Ghost Gaming,NiSMO,split,31,20,,322,200,82,tsm,15,13,6/4/22
+Ghost Gaming,koalanoob,split,23,20,,218,140,64,tsm,15,13,6/4/22
+Ghost Gaming,johnqt,split,17,18,,187,136,75,tsm,15,13,6/4/22
+Ghost Gaming,brawk,split,12,18,,134,102,82,tsm,15,13,6/4/22
+Ghost Gaming,aproto,split,12,22,,122,79,61,tsm,15,13,6/4/22
+NRG,tex,icebox,23,14,,294,185,73,100 thieves,9,13,6/5/22
+NRG,Ethan,icebox,15,15,,201,123,73,100 thieves,9,13,6/5/22
+NRG,s0m,icebox,15,20,,191,115,59,100 thieves,9,13,6/5/22
+NRG,eeiu,icebox,14,13,,186,126,82,100 thieves,9,13,6/5/22
+NRG,hazed,icebox,6,15,,96,87,73,100 thieves,9,13,6/5/22
+100 Thieves,bang,icebox,21,15,,283,157,86,nrg,13,9,6/5/22
+100 Thieves,Will,icebox,17,17,,228,144,82,nrg,13,9,6/5/22
+100 Thieves,Asuna,icebox,13,15,,187,112,59,nrg,13,9,6/5/22
+100 Thieves,Derrek,icebox,14,14,,163,101,73,nrg,13,9,6/5/22
+100 Thieves,stellar,icebox,12,12,,153,109,73,nrg,13,9,6/5/22
+NRG,eeiu,bind,13,15,,212,134,71,100 thieves,4,13,6/5/22
+NRG,s0m,bind,11,13,,212,149,65,100 thieves,4,13,6/5/22
+NRG,tex,bind,10,13,,181,120,71,100 thieves,4,13,6/5/22
+NRG,hazed,bind,8,14,,149,108,71,100 thieves,4,13,6/5/22
+NRG,Ethan,bind,9,15,,141,101,53,100 thieves,4,13,6/5/22
+100 Thieves,Will,bind,19,11,,320,189,76,nrg,13,4,6/5/22
+100 Thieves,bang,bind,15,11,,227,150,94,nrg,13,4,6/5/22
+100 Thieves,Asuna,bind,13,12,,218,147,71,nrg,13,4,6/5/22
+100 Thieves,stellar,bind,14,9,,216,138,88,nrg,13,4,6/5/22
+100 Thieves,Derrek,bind,9,9,,128,84,71,nrg,13,4,6/5/22
