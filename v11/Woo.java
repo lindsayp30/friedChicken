@@ -61,6 +61,8 @@ public class Woo {
 
   private static Team predWinner;
   private static String predMVP;
+  private static Team yourWinner;
+  private static String yourMVP;
 
   public static final String reset = "\u001B[0m";
   public static final String yellow = "\u001B[33m";
@@ -358,8 +360,10 @@ public class Woo {
       choice4 = pick4.nextLine();
       choice4 = choice4.toLowerCase();
       if (choice4.equals("1")) {
+        yourWinner = team1.get(0);
         break;
       } else if (choice4.equals("2")) {
+        yourWinner = team2.get(0);
         break;
       } else {
 
@@ -371,24 +375,58 @@ public class Woo {
     for (int i = 0; i < team1Players.size(); i++) {
       System.out.println(i + ": " + team1Players.get(i).getName());
     }
+    while (true) {
+      Scanner pick5t = new Scanner(System.in);
+      String choice5t = pick5t.nextLine();
+      choice5t = choice5t.toLowerCase();
+
+      if (choice5t.equals("0")) {
+        yourMVP = team1Players.get(0).getName();
+        break;
+      } else if (choice5t.equals("1")) {
+        yourMVP = team1Players.get(1).getName();
+        break;
+      } else if (choice5t.equals("2")) {
+        yourMVP = team1Players.get(2).getName();
+        break;
+      } else if (choice5t.equals("3")) {
+        yourMVP = team1Players.get(3).getName();
+        break;
+      } else if (choice5t.equals("4")) {
+        yourMVP = team1Players.get(4).getName();
+        break;
+    }
+  }
   } else {
     System.out.println(yellow + "\n" + "Team 2 Players: " + reset);
     for (int j = 0; j < team2Players.size(); j++) {
       System.out.println(j + ": " + team2Players.get(j).getName());
     }
-  }
+    while (true) {
+      Scanner pick5r = new Scanner(System.in);
+      String choice5r = pick5r.nextLine();
+      choice5r = choice5r.toLowerCase();
+      if (choice5r.equals("0")) {
+        yourMVP = team2Players.get(0).getName();
+        break;
+      } else if (choice5r.equals("1")) {
+        yourMVP = team2Players.get(1).getName();
+        break;
+      } else if (choice5r.equals("2")) {
+        yourMVP = team2Players.get(2).getName();
+        break;
+      } else if (choice5r.equals("3")) {
+        yourMVP = team2Players.get(3).getName();
+        break;
+      } else if (choice5r.equals("4")) {
+        yourMVP = team2Players.get(4).getName();
+        break;
+      }
+    }
 
-    // while (true) {
-    //   Scanner pick5 = new Scanner(System.in);
-    //   String choice5 = pick5.nextLine();
-    //   choice5 = choice5.toLowerCase();
-    //   if ()
-    //   for (int k = 0; k < team1Players.size(); k++) {
-    //
-    //   }
-    //   if (name.equals(choice5))
-    //   break;
-    // } //ends while loop
+
+
+    } //ends while loop
 
     if (totalMoney <= 0) {
       System.out.println("\n" + red + "Your life was taken away due to your inability to read stats." + reset);
@@ -407,7 +445,7 @@ public class Woo {
         System.out.println("That is not a valid amount.");
         Scanner playerBetr = new Scanner(System.in);
         String choice6r = playerBet.next();
-        int theBet = Integer.parseInt(choice6r);
+        theBet = Integer.parseInt(choice6r);
       }
     }
 
@@ -498,29 +536,29 @@ public class Woo {
     }
 
     System.out.println("\nLet's see if your guess on the winning team is right...");
-    if (choice4.equals(predWinner)) {
+    if (yourWinner.equals(predWinner)) {
       delay(1000);
-      System.out.println(yellow + "Right on!" + reset);
+      System.out.println(yellow + "Right on!" + reset + " The winner was " + predWinner);
       totalMoney += theBet;
       delay(1000);
       System.out.println("Remaining money: "+ totalMoney);
     } else {
       delay(1000);
-      System.out.println(red + "Very off..." + reset);
+      System.out.println(red + "Very off..." + reset + " The winner was " + predWinner);
       delay(1000);
       System.out.println("Remaining money: "+ totalMoney);
     }
 
     System.out.println("\nLet's see if your guess on the MVP is right...");
-    if (choice4.equals(predMVP)) {
+    if (yourMVP.equals(predMVP)) {
       delay(1000);
-      System.out.println(yellow + "Right on!" + reset);
+      System.out.println(yellow + "Right on!" + reset + " The MVP was " + predMVP);
       totalMoney += theBet;
       delay(1000);
       System.out.println("Remaining money: "+ totalMoney);
     } else {
       delay(1000);
-      System.out.println(red + "Very off..." + reset);
+      System.out.println(red + "Very off..." + reset + " The MVP was " + predMVP);
       delay(1000);
       System.out.println("Remaining money: "+ totalMoney);
     }
