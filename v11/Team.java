@@ -6,10 +6,6 @@ public class Team {
   private int roundsWon, roundsLost;
   private Player p1, p2, p3, p4, p5;
 
-  public Team() {
-
-  }
-
   public Team(Player uno, Player dos, Player tres, Player cuatro, Player cinco) {
     //team = t;
     p1 = uno;
@@ -42,23 +38,6 @@ public class Team {
       mvp = p5.getName();
     }
     return mvp;
-  }
-
-  private static String lvp;
-
-  public String calcLVP() {
-    if ((p1.getACS() < p2.getACS()) && (p1.getACS() < p3.getACS()) && (p1.getACS() < p4.getACS()) && (p1.getACS() < p5.getACS())) {
-      mvp = p1.getName();
-    } else if ((p2.getACS() < p1.getACS()) && (p2.getACS() < p3.getACS()) && (p2.getACS() < p4.getACS()) && (p2.getACS() < p5.getACS())) {
-      mvp = p2.getName();
-    } else if ((p3.getACS() < p1.getACS()) && (p3.getACS() < p2.getACS()) && (p3.getACS() < p4.getACS()) && (p3.getACS() < p5.getACS())) {
-      mvp = p3.getName();
-    } else if ((p4.getACS() < p1.getACS()) && (p4.getACS() < p2.getACS()) && (p4.getACS() < p3.getACS()) && (p4.getACS() < p5.getACS())) {
-      mvp = p4.getName();
-    } else if ((p5.getACS() < p1.getACS()) && (p5.getACS() < p2.getACS()) && (p5.getACS() < p3.getACS()) && (p5.getACS() < p4.getACS())) {
-      mvp = p5.getName();
-    }
-    return lvp;
   }
 
   public int averageKills() {

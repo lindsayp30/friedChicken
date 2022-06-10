@@ -30,6 +30,5 @@ To add fun, the player will be told that they are kidnapped by the mafia because
    ```
    $ javac -classpath .:./sinbad.jar -d . Woo.java
    $ java -classpath .:./sinbad.jar Woo
-
    ```
 
